@@ -1,0 +1,68 @@
+// All styles are same with _All-comment.scss page except below codes that related to
+// the comment-header-container -> comment-header
+
+.comment-header-style-2{
+    width: 100%;
+    height: 107px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--element-color);
+    padding: 16px 30px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 -7px 15px -8px rgba(0, 0, 0, 0.26);
+    position: relative;
+    top: 17px;
+    .close-btn{
+        @extend %close-btn;
+    }
+    .image-box{
+        width: 75px;
+        height: 75px;
+        @include center;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .subject{
+        width: 635px;
+        height: 75px;
+        padding: 16px;
+        @include center;
+        position: relative;
+        justify-content: right;
+        flex-grow: 1;
+        strong{
+            font-size: 16px;
+            color: var(--text-color);
+        }
+        .add-btn{
+            @extend %add-btn;
+            position: absolute;
+            left: 62px;
+        }
+    }
+    .posted-in{
+        width: 420px;
+        height: 75px;
+        @include center;
+        justify-content: right;
+        border-right: 1px solid rgba($tertiary-color, .30);
+        i{
+            font-size: 24px;
+            color: $tertiary-color;
+            padding-right: 30px;
+        }
+        span{
+            font-size: 16px;
+            padding-right: 16px;
+            color: $tertiary-color;
+        }
+        a{
+            padding-right: 8px;
+            color: var(--text-color);
+        }
+    }
+}

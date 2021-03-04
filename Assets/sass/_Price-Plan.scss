@@ -1,0 +1,161 @@
+.price-plan-design-2{
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 0;
+    }
+    .col {
+        padding: 0 15px;
+        flex-basis: 0;
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        width: 304px;
+        .plan-header{
+            position: relative;
+            width: 304px;
+            height: 209px;
+            border-top-left-radius: 152px;
+            border-top-right-radius: 152px;
+            @include flex-col-center; 
+            background: linear-gradient(104deg, #0dc979 -17%,#2059f6 92%);
+            i{
+                font-size: 60px;
+                color: #fff;
+            }
+            p{
+                position: absolute;
+                font-size: 22px;
+                color: #fff;
+                bottom: 30px;
+            }
+            .label{
+                position: absolute;
+                bottom: 155px;
+                right: 24px;
+                width: 68px;
+                height: 68px;
+                background-color: var(--primary-color) ;
+                border-radius: 50%;
+                color: #fff;
+                font-size: 22px;
+                @include center;
+            }
+        } 
+    }
+    .card {
+    position: relative;
+    width: 304px;
+    height: max-content;
+    margin-bottom: 50px;
+    @extend %plan-shadow;
+        a{
+        position: relative;
+        margin: 0 auto;
+        bottom: -20px;
+        i{
+            position: relative;
+            bottom: 5px;
+            right: 1px;
+        }
+    }
+        
+        .plan-info{
+        width: 100%;
+        height: 70px;
+        padding: 20px 30px;
+        overflow: hidden;
+        transition: max-height 0.7s;
+        .price-box {
+            width: 100%;
+            height: 22px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+            .price{
+                font-size: 16px;
+                color: var(--primary-color);
+            }
+            span{
+                font-size: 16px;
+                color: var(--text-color);
+            }
+            .term{
+                font-size: 16px;
+                text-align: left;
+                color: var(--secondary-color); 
+            }
+        }
+        } 
+        .plan-detail, .text{
+            padding:  0 30px;
+            overflow: hidden;
+            transition: max-height 0.7s;
+                ul {
+                    position: relative;
+                    li{
+                        font-size: 13px;
+                        padding: 5px;
+                    p {
+                        display: inline;
+                        color: var(--text-color);
+                    }
+                    i{
+                        position: absolute;
+                        right: 0;
+                        display: inline;
+                        font-size: 25px;
+                        color: var(--primary-color);
+                        z-index: 5;
+                    }
+                    }
+                li::before {
+                    content: "\25EF";
+                    color: var(--tertiary-color);
+                    margin-left: 10px;
+                    font-size: 18px;
+                    z-index: 1;
+                    }
+                }
+        } 
+    }
+    .show-more {
+        width: 34px;
+        height: 34px;
+        background-color: #fff;
+        border-radius: 50%;
+        color: var(--primary-color);
+        font-size: 25px;
+        position: relative;
+        cursor: pointer;
+        @extend %btn-shadow;
+        @include center;
+        transition: all .3s ease-in-out;
+        &:hover {
+            background-color: var(--primary-color);
+            @extend %btn-shadow-hover;
+            color: #fff;
+        }
+    }
+    .show-more.show::before {
+        content: '';
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        top: 0;
+        border-radius: 50%;
+        background-color: var(--primary-color);
+        mask-image: url(/Assets/fonticon/eva-icons/fill/svg/arrow-ios-upward.svg);
+        -webkit-mask-image:url(/Assets/fonticon/eva-icons/fill/svg/arrow-ios-upward.svg);
+    }
+    .show-more.show:hover::before{
+        background-color: #fff;
+    }
+    .text {
+        width: 100%;
+        display: none;
+    }
+    .text.show{
+        display: block;
+        height: 120px;
+    }
+}

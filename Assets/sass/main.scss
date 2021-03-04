@@ -1,0 +1,49 @@
+/*
+www.Avin-tarh.ir
+Hamdast Project 11/11/2020
+All rights reserved
+*/
+@import "variable/color";//All colors that used in Hamdast.
+
+@import "base"; // All reset codes and bases codes that constant in all pages.
+@import "fonts";//All fonts that used in Hamdast.
+
+//components
+
+@import "./component/button";
+@import "./component/shadow";
+@import "./component/icon";
+@import "./component/spinner";
+@import "./component/checkbox";
+@import "./component/comment-panel";
+@import "./component/Account-panel";
+
+// pages
+
+@import "Box-Icon";
+@import "Tab-content-V";
+@import "Tab-content-H";
+@import "Blog-Slider";
+@import "Team-And-Testimonial";
+@import "Mega-Menu";
+@import "After-Before";
+@import "Point-Image";
+@import "All-comment";
+@import "All-comment-Page-Product";
+@import "Services";
+@import "Certificate";
+@import "Blog-Slider-Accordian";
+@import "Blog-Masonary";
+@import "Price-Plan";
+@import "Header";
+@import "Blog-Slider-Design-2";
+@import "Fast-Food-Shop";
+@import "Single-product-page-sofa";
+@import "My-Account-Page-Saved";
+@import "My-Account-page-wish-list";
+@import "My-Account-Page-All-order";
+
+
+
+
+

@@ -1,0 +1,291 @@
+%circle-btn {
+    a{
+        width: 30px;
+        height: 30px;
+        background-color: var(--element-color);
+        border-radius: 50%;
+        color: #2059f6;
+        box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.26);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            position: absolute;
+            font-size: 37px;
+            transition: all .3s ease-in;
+        }
+        i:nth-child(1) {
+            opacity: 1;
+        }
+        i:nth-child(2) {
+            opacity: 0;
+        }
+    }
+    &:hover a {
+        box-shadow: 0px 3px 10px 2px #2059f68f;
+        i:nth-child(1) {
+            opacity: 0;
+            color: #fff;
+        }
+        i:nth-child(2) {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }  
+}
+%cart-btn{
+    background-color:$primary-color;
+    transition: all .3s ease-out;
+    position: relative;
+    a i {
+        color: #fff;
+        font-size: 29px;
+    }
+    &:hover{
+        @extend %btn-shadow-hover;
+        span{
+            transform: scale(1.1);
+        }
+    }
+    span{
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        top: -5px;
+        right: -5px;
+        background-color: #fff;
+        color: #ff2020;
+        border-radius: 50%;
+        text-align: center;
+        font-weight: bold;
+        line-height: 2;
+        overflow: hidden;
+        transition: all .2s ease-in;
+    }
+}
+%phone-btn{
+    background-color: $secondary-color;
+    transition: all .3s ease-out;
+    a i {
+        color: #fff;
+        font-size: 29px;
+    }
+    &:hover{
+        @extend %btn-shadow-hover-2
+    }
+}
+%close-btn{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgba($tertiary-color, $alpha: .5);
+    position: absolute;
+    left: 30px;
+    top: -17px;
+    transition:all .2s ease-in-out;
+    a{
+        color: #fff;
+        font-size: 24px;
+    }
+    &:hover{
+        background-color: rgba($close-color, $alpha: .8);
+        box-shadow: 0px 3px 15px 2px #ff20205c;
+    }
+}
+%add-comment-btn{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: $primary-color;
+    position: absolute;
+    left: 30px;
+    bottom: 19px;
+    transition: all .3s ease-in-out;
+    padding: 5px;
+    
+    i{
+        font-size: 24px;
+        color: #fff;
+        transform: rotate(0deg);
+        transition: all .5s ease-in-out;
+    }
+    &:hover{
+        @extend %btn-shadow;
+        i{
+            transform: rotate(90deg);
+        }
+    }
+}
+%add-btn{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: $secondary-color;
+    transition: all .3s ease-in-out;
+    padding: 5px;
+    i{
+        font-size: 24px;
+        color: #fff;
+        transform: rotate(0deg);
+        transition: all .5s ease-in-out;
+    }
+    &:hover{
+        @extend %add-btn-shadow;
+        i{
+            transform: rotate(90deg);
+        }
+    }
+}
+%like-dislike-replay{
+    a{
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background-color: var(--body-color);
+        padding: 7px;
+        cursor: pointer;
+        position: relative;
+        @extend %comment-btn-shadow;
+        i{
+            position: absolute;
+            font-size: 22px;
+            transition: .2s ease-in-out;
+            &:first-child{
+                opacity: 1;
+            }
+            &:last-child{
+                opacity: 0;
+            }
+        }
+    }
+}
+%like-btn{
+    i,p{
+        color: $like-color;
+    }
+    span{
+        position: absolute;
+        transition: all .2s ease-out;
+    }
+    span:nth-child(1){
+        top: 5px;
+        left: 5px;
+        transform: rotate(-30deg);
+    }   
+    span:nth-child(2){
+        top: 5px;
+        right: 5px;
+        transform: rotate(30deg);
+    } 
+    span:nth-child(3){
+        bottom: 0px;
+        right: 15px;
+        transform: rotate(137deg);
+    }
+}
+%dislike-btn{
+    i,p{
+        color: $dislike-color;
+    }
+}
+%replay-btn{
+    i{
+        color: $primary-color;
+    }
+    &:hover a {
+            background-color: $primary-color;
+            @extend %btn-shadow-hover;
+            i:first-child{
+                opacity: 0;
+            }
+            i:last-child{
+                opacity: 1;
+                color: #fff;
+            }
+        }
+}
+%product-btns{
+    a{
+        width: 34px;
+        height: 34px;
+        background-color: $tertiary-color;
+        border-radius: 50%;
+        color: #FFF;
+        box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.26);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: box-shadow .1s ease-in-out, background-color .6s ease-in-out;
+        i {
+            position: absolute;
+            font-size: 24px;
+        }
+    }
+    &:hover a {
+        box-shadow: 0px 3px 10px 2px rgba($primary-color, $alpha: .5);
+        background-color: $primary-color;
+    } 
+}
+%more-btn{
+    a{
+        width: 2.2em;
+        height: 2.2em;
+        background-color: var(--element-color);
+        border-radius: 50%;
+        color: $primary-color;
+        box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.26);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            position: absolute;
+            font-size: 1.5em;
+            transition: all .3s ease-in;
+        }
+    }
+    &:hover a {
+        background-color:$primary-color ;
+        box-shadow: 0px 3px 10px 2px #2059f68f;
+        cursor: pointer;
+        i{
+            color: #fff;
+        }
+    }  
+}
+%account-page-user-btn{
+    a{  
+        position: relative;
+        width: 2em;
+        height: 2em;
+        background-color: var(--element-color);
+        border-radius: 50%;
+        color: var(--text-color);
+        box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.26);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: box-shadow .1s ease-in-out, background-color .6s ease-in-out;
+        i {
+            position: absolute;
+            font-size: 24px;
+        }
+        span{
+            font-size: 16px;
+            width: 1.5em;
+            height: 1.5em;
+            position: absolute;
+            top: -.75em;
+            right: -.75em;
+            border-radius: 50%;
+            background-color: red;
+            color: #fff;
+            @include center;
+        }
+    }
+    &:hover a {
+        box-shadow: 0px 3px 10px 2px rgba($primary-color, $alpha: .5);
+        background-color: $primary-color;
+        color: #fff;
+    } 
+}

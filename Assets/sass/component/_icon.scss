@@ -1,0 +1,21 @@
+%icon{
+    i{
+        position: absolute;
+        font-size: 43px;
+        transition: all .3s ease-in;
+        display: block;
+        color: #2059f6;
+    }
+    i:nth-child(2){
+        opacity: 0;
+    }
+    &:hover  {
+        i:nth-child(1){
+            opacity: 0;
+        }
+        i:nth-child(2){
+            color: #2059f6;
+            opacity: 1;
+        }
+    }
+}

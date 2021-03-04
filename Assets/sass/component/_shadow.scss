@@ -1,0 +1,45 @@
+%box-shadow {
+    box-shadow: 0px 3px 25px 2px rgba(0, 0, 0, 0.26);
+}
+%general-shadow{
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+}
+%plan-shadow{
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.36);
+}
+%btn-shadow {
+    box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.36);
+}
+%add-btn-shadow{
+    box-shadow: 0px 3px 10px 2px rgba($secondary-color, $alpha: .5);
+}
+%btn-shadow-hover {
+    box-shadow: 0 0 15px 0 var(--primary-color);
+}
+%btn-shadow-hover-2{
+    box-shadow: 0 0 15px 0 var(--secondary-color);
+}
+%btn-shadow-hover-3{
+    box-shadow: 0 0 15px 0 var(--tertiary-color);
+}
+%comment-btn-shadow{
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+}
+%header-shadow{
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.36);
+}
+%navigation-shadow{
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.16);
+}
+%comment-box-shadow{
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.36);
+}
+%products-shadow{
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.16);
+}
+%filter-item-shadow{
+    box-shadow: 0px 0px 7px 2px rgba($primary-color, $alpha: .65);
+}
+%avatar-box{//my account page box
+    box-shadow: 0 0 16px 0 rgba(27, 29, 34, 0.72);
+}

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fast Food Shop</title>
+  <link rel="stylesheet" href="/Assets/css/main.css">
+  <link rel="stylesheet" href="/Assets/fonticon/RemixIcon-master/fonts/remixicon.css">
+  <link rel="stylesheet" href="/Assets/fonticon/eva-icons/style/eva-icons.css">
+  <link rel="stylesheet" href="/Assets/scripts/jquery-ui-slider-range/jquery-ui-1.12.1.custom/jquery-ui.css">
+</head>
+
+<body>
+  <section class="shop">
+    <div class="wrapper">
+      <div class="container">
+        <div class="products-nav">
+          <div class="filter-toggle"><a href="#"><i class="ri-equalizer-line"></i>
+              <p>مشاهده فیلترها</p>
+            </a></div>
+          <div class="products-count">
+            <ul>
+              <li class="products-name">پیتزا</li>
+              <li class="count">56</li>
+            </ul>
+          </div>
+          <div class="view-mode">
+            <div class="guide">
+              <p>sorting</p>
+            </div>
+            <a href="#"><i class="eva eva-list-outline"></i></a>
+            <a href="#"><i class="eva eva-grid-outline"></i></a>
+          </div>
+        </div>
+        <div class="prdoducts-section">
+          <sidebar class="fliters-container">
+            <div class="filter-title">
+              <h2>سایز</h2><i class="eva eva-arrow-ios-downward-outline" id="arrow"></i>
+            </div>
+            <div class="size-widget" id="panel">
+              <ul>
+                <li><a href="#">34</a></li>
+                <li><a href="#">35</a></li>
+                <li><a href="#">36</a></li>
+                <li><a href="#">37</a></li>
+                <li><a href="#">38</a></li>
+                <li><a href="#">39</a></li>
+                <li><a href="#">40</a></li>
+                <li><a href="#">41</a></li>
+                <li><a href="#">42</a></li>
+                <li><a href="#">43</a></li>
+              </ul>
+            </div>
+            <hr>
+            <div class="filter-title">
+              <h2>اندازه</h2><i class="eva eva-arrow-ios-downward-outline" id="arrow"></i>
+            </div>
+            <div class="bussines-size-widget" id="panel">
+              <ul>
+                <li><a href="#">Small</a></li>
+                <li><a href="#">Medium</a></li>
+                <li><a href="#">Large</a></li>
+              </ul>
+            </div>
+            <hr>
+            <div class="filter-title">
+              <h2>رنگ</h2><i class="eva eva-arrow-ios-downward-outline" id="arrow"></i>
+            </div>
+            <div class="color-widget" id="panel">
+              <ul>
+                <li>
+                  <div style="background: #ff2020;"><i class="eva eva-checkmark-outline"></i></div><a href="#">قرمز</a>
+                </li>
+                <li>
+                  <div style="background: #0dc979;"><i class="eva eva-checkmark-outline"></i></div><a href="#">سبز</a>
+                </li>
+                <li>
+                  <div style="background: #2059f6;"><i class="eva eva-checkmark-outline"></i></div><a href="#">آبی</a>
+                </li>
+                <li>
+                  <div style="background: #ffd700;"><i class="eva eva-checkmark-outline"></i></div><a href="#">زرد</a>
+                </li>
+                <li>
+                  <div style="background: #ffa7a7;"><i class="eva eva-checkmark-outline"></i></div><a href="#">صورتی</a>
+                </li>
+                <li>
+                  <div style="background: #121024;"><i class="eva eva-checkmark-outline"></i></div><a href="#">سرمه
+                    ای</a>
+                </li>
+              </ul>
+            </div>
+            <hr>
+            <div class="filter-title">
+              <h2>برند</h2><i class="eva eva-arrow-ios-downward-outline" id="arrow"></i>
+            </div>
+            <div class="brand-widget" id="panel">
+              <input id="BrandInput" type="text" placeholder="جستجوی برند">
+              <i class="eva eva-search-outline"></i>
+              <hr>
+              <div>
+                <ul id="BrandList">
+                  <li><a href="#">آدیداس <p>Addidas</p><i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">نایکی <p>Nike</p><i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">پوما <p>puma</p><i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">زارا <p>Zara</p><i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">نوین چرم <p>NovinCharm</p><i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">سامسونگ <p>Samsung</p><i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">بی ام دابلیو <p>BMW</p><i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">بنز <p>Benz</p><i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">سونی <p>Sony</p><i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">بیژن <p>Bijan</p><i class="eva eva-checkmark-outline"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <hr>
+            <div class="filter-title">
+              <h2>حافظه</h2><i class="eva eva-arrow-ios-downward-outline" id="arrow"></i>
+            </div>
+            <div class="capacity-widget" id="panel">
+              <div>
+                <ul id="capacityList">
+                  <li><a href="#">64 گیگابایت<i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">128 گیگابایت<i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">256 گیگابایت<i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">1 ترابایت<i class="eva eva-checkmark-outline"></i></a></li>
+                  <li><a href="#">2 ترابایت<i class="eva eva-checkmark-outline"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <hr>
+            <div class="filter-title">
+              <h2>تخفیف خورده ها</h2>
+              <div class="with-off-widget-toggle">
+                <input type="checkbox" id="checktoggle" />
+                <label for="checktoggle"></label>
+              </div>
+            </div>
+            <hr>
+            <div class="filter-title">
+              <h2>فیلتر قیمت</h2><i class="eva eva-arrow-ios-downward-outline" id="arrow"></i>
+            </div>
+            <div class="price-filter-widget" id="panel">
+              <div class="slider-container">
+                <ul>
+                  <li>
+                    <p id="max-amount"></p><span> تومان </span>
+                  </li>
+                  <li>
+                    <p id="min-amount"></p><span> تومان </span>
+                  </li>
+                </ul>
+                <div class="clearfix"></div>
+                <div id="slider-range"></div>
+              </div>
+            </div>
+            <hr>
+          </sidebar>
+          <div class="products">
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pasta_1.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star off"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pasta_2.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star off"></i></li>
+                <li><i class="eva eva-star off"></i></li>
+                <li><i class="eva eva-star off"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pizza_1.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pizza_2.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pizza_3.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pizza_4.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pizza_5.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pizza_6.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pizza_7.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pizza_1.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pizza_2.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg"></div>
+              <img src="/Assets/image/fast-food-shop/pizza_3.png" alt="">
+              <h2>پیتزا مخصوص</h2>
+              <span class="item-price">500.000.000</span>
+              <ul>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+                <li><i class="eva eva-star"></i></li>
+              </ul>
+              <div class="buttons">
+                <div class="add-btn"><a href="#"><i class="eva eva-plus-outline"></i></a></div>
+                <div class="alarm-btn"><a href="#"><i class="eva eva-bell-outline"></i></a></div>
+                <div class="award-btn"><a href="#"><i class="eva eva-award-outline"></i></a></div>
+                <div class="faq-btn"><a href="#"><i class="eva eva-question-mark-outline"></i></a></div>
+                <div class="more-btn"><a href="#"><i class="eva eva-more-horizontal-outline"></i></a></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <script src="/Assets/scripts/jquery-3.5.1.min.js"></script>
+  <script src="/Assets/scripts/jquery-ui-slider-range/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      //filter-toggle on click 
+      var filtersListBtn = $(".filter-toggle")
+      filtersListBtn.click(function () {
+        $(this).find("i").toggleClass("flip");
+        $(".fliters-container").fadeToggle();
+        $(".products").toggleClass("three-grid-col").fadeIn("fast");
+        $(this).find("p").text($(this).find("p").text() == 'مشاهده فیلترها' ? 'مخفی سازی فیلترها' : 'مشاهده فیلترها');
+      });
+      // open filter boxs
+      var filterTitle = $(".filter-title")
+      filterTitle.click(function () {
+        $(this).next("#panel").slideToggle("slow");
+        $(this).find("#arrow").toggleClass("arrowup");
+      });
+
+      // size-widget and bussines-size-widget items
+      var SizeItem = $(".size-widget>ul>li")
+      var BussinesSize = $(".bussines-size-widget>ul>li")
+      SizeItem.click(function () {
+        $(this).toggleClass("active")
+      });
+      BussinesSize.click(function () {
+        $(this).toggleClass("active")
+      });
+
+      // color-widget
+      var ColorItem = $(".color-widget>ul>li")
+      ColorItem.click(function () {
+        $(this).find("div>i").toggleClass("checked");
+      });
+
+      //brand-widget
+      $("#BrandInput").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $("#BrandList li").filter(function () {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+      var BrandItem = $("#BrandList>li>a>i");
+      BrandItem.click(function () {
+        $(this).toggleClass("with-tick");
+      });
+
+      //capacity-widget
+      var capacityItem = $("#capacityList>li>a");
+      capacityItem.click(function () {
+        $(this).find("i").toggleClass("with-check");
+      });
+
+      //price-filter-widget
+      $(function () {
+        $("#slider-range").slider({
+          range: true,
+          animate: "fast",
+          min: 0,
+          max: 500.000,
+          values: [0, 500.000],
+          slide: function (event, ui) {
+            $("#min-amount").text(ui.values[0]);
+            $("#max-amount").text(ui.values[1]);
+          }
+        });
+        $("#min-amount").text($("#slider-range").slider("values", 0));
+        $("#max-amount").text($("#slider-range").slider("values", 1));
+      });
+    });
+  </script>
+</body>
+
+</html>

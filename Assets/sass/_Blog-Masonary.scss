@@ -1,0 +1,150 @@
+.masonary .blog-gallery{
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 50px 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 304px);
+    grid-auto-rows: 266px;
+    grid-gap: 30px;
+    row-gap: 30px;
+    grid-auto-flow: dense;
+    .tile {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        .tile-on-hover{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: rgba(32, 89, 246, 0.5);
+            top: 0;
+            left: 0;
+            opacity: 0;
+            z-index: 2;
+            overflow: hidden;
+            transition: all .8s ease-in-out;
+            .detail-btns {
+                display: flex;
+                flex-direction: column;
+                width: 64px;
+                height: 226px;
+                background-color: #fff;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                position: absolute;
+                bottom: -200px;
+                right: 20px;
+                align-items: center;
+                justify-content: center;
+                transition: all .5s ease-in-out;
+                a{
+                    width: 34px;
+                    height: 34px;
+                    border-radius: 50%;
+                    background-color: $primary-color;
+                    margin: 17px 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: all .7s ease-in-out;
+                    transform: rotate(360deg);
+                    box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.26);
+                    &:hover{
+                        box-shadow: 0px 3px 10px 2px #2059f68f;
+                    }
+                    i {
+                        color: #fff;
+                        font-size: 25px;
+                    }
+                }
+            }
+            .read-more{
+                width: 34px;
+                height: 34px;
+                background-color: #fff;
+                border-radius: 50%;
+                z-index: 3;
+                position: absolute;
+                bottom: -50px;
+                left: -50px;
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+                transform: rotate(360deg);
+                transition: all .7s ease-in-out;
+                box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.26);
+                &:hover {
+                    background-color: $primary-color;
+                    color: #fff;
+                    box-shadow: 0px 3px 10px 2px #2059f68f;
+                    }
+            }
+        }
+        p {
+            width: 100%;
+            height: 57px;
+            color: #fff;
+            padding: 21px 0 21px 0;
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            transition:all .7s ease-in-out;
+            z-index: 3;
+        }
+        span {
+            position: absolute;
+            bottom: 15px;
+            right: 30px;
+            color: #fff;
+            z-index: 3;
+            font-size: 13px;
+            transition: all .7s ease-in-out;
+        }
+        &:hover{
+            p {
+               bottom: 55%; 
+               right:90px;
+            }
+            span {
+                bottom: 50%;
+                right: 90px;
+            }
+            .tile-on-hover {
+                opacity: 1;
+            }
+            .read-more {
+                left: 20px;
+                bottom: 20px;
+                transform: rotate(0deg);
+            }
+            .detail-btns{
+                border-top-left-radius: 32px;
+                border-top-right-radius: 32px;
+                bottom: 0;
+                a {
+                    transform: rotate(0);
+                }
+            }
+        }
+    }
+}
+
+.masonary .blog-gallery .tile:first-child {
+    grid-column-start: span 1;
+    grid-row-start: span 2;
+}
+.masonary .blog-gallery .tile:nth-child(2n+3){
+    grid-column-start: span 2;
+}
+.masonary .blog-gallery .tile:nth-child(9n+1){
+    grid-column-start: span 1;
+    grid-row-start: span 2;
+}
+.masonary .blog-gallery .tile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

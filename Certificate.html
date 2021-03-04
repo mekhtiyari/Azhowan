@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate</title>
+    <link rel="stylesheet" href="/Assets/css/main.css">
+    <link rel="stylesheet" href="/Assets/fonticon/RemixIcon-master/fonts/remixicon.css">
+    <link rel="stylesheet" href="/Assets/fonticon/eva-icons/style/eva-icons.css">
+    <link rel="stylesheet" href="/Assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/Assets/css/swiper.css">
+</head>
+
+<body>
+    <section class="certificate-style-1">
+        <div class="swiper-container certificate" dir="ltl">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide certificate-slide">
+                    <div class="certificate-main-img">
+                        <div style="background-image:url(/Assets/image/certificate/1-main.jpg)"></div>
+                    </div>
+                    <div class="certificate-sub-img">
+                        <div style="background-image:url(/Assets/image/certificate/1-sub.jpg)"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide certificate-slide">
+                    <div class="certificate-main-img">
+                        <div style="background-image:url(/Assets/image/certificate/2-main.jpg)"></div>
+                    </div>
+                    <div class="certificate-sub-img">
+                        <div style="background-image:url(/Assets/image/certificate/2-sub.jpg)"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide certificate-slide">
+                    <div class="certificate-main-img">
+                        <div style="background-image:url(/Assets/image/certificate/3-main.jpg)"></div>
+                    </div>
+                    <div class="certificate-sub-img">
+                        <div style="background-image:url(/Assets/image/certificate/3-sub.jpg)"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide certificate-slide">
+                    <div class="certificate-main-img">
+                        <div style="background-image:url(/Assets/image/certificate/4-main.jpg)"></div>
+                    </div>
+                    <div class="certificate-sub-img">
+                        <div style="background-image:url(/Assets/image/certificate/2-sub.jpg)"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide certificate-slide">
+                    <div class="certificate-main-img">
+                        <div style="background-image:url(/Assets/image/certificate/5-main.jpg)"></div>
+                    </div>
+                    <div class="certificate-sub-img">
+                        <div style="background-image:url(/Assets/image/certificate/1-sub.jpg)"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="/Assets/scripts/swiper-bundle.min.js"></script>
+    <script src="/Assets/scripts/swiper.js"></script>
+    <script>
+        var swiper = new Swiper('.certificate', {
+            effect: 'coverflow',
+            loop: true,
+            centeredSlides: true,
+            autoplay:true,
+            slidesPerView: 3,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 75,
+                depth: 50,
+                modifier: 4.5,
+                slideShadows: false,
+                shadowScale: 5,
+            },
+        });
+    </script>
+</body>
+
+</html>

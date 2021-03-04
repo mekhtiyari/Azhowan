@@ -1,0 +1,308 @@
+.services-stlye-1{
+    width: 100%;
+    height: 524px;
+    margin: 122px 0;
+    display: flex;
+    flex-direction: row;
+    .image {
+        width: 683px;
+        height: 524px;
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        background-image: url(/Assets/image/services/Daxing-AirPort.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .content {
+        width: 683px;
+        height: 524px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        div:nth-child(1) {
+            margin-bottom: 31px;
+            i{
+                font-size: 55px;
+                color: #2059f6;
+                margin-bottom: 31px;
+            }
+        } 
+        div:nth-child(2) {
+            display: grid;
+            grid-template-columns: 110px 110px 110px 110px;
+            grid-column-gap: 10px;
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                height: 115px;
+                position: relative;
+                cursor: default;
+                span {
+                    opacity: 0;
+                    transform: translateY(10px);
+                    transition: all .3s ease-in-out;
+                }
+                &:hover span {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+                @extend %icon;
+                i{
+                    top: 15px;
+                    font-size: 50px !important;
+                }
+                time {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 16px;
+                }
+                
+            }
+        }
+        .Description {
+            width: 100%;
+            height: 198px;
+            overflow: hidden;
+            line-height: 2.31;
+            text-align: justify;
+            position: relative;
+            padding-left: 35px;
+            cursor: default;
+            @extend %circle-btn;
+            
+            a {
+                position: absolute;
+                left: 10px;
+                bottom: 12px;
+            }
+        }
+        
+    }
+}
+.services-stlye-2{
+    @extend .services-stlye-1;
+    flex-direction: row-reverse;
+    .image {
+        width: 683px;
+        height: 524px;
+        border-top-right-radius: 100%;
+        border-top-left-radius:0;
+        border-bottom-right-radius: 100%;
+        border-bottom-left-radius: 0;
+        background-image: url(/Assets/image/services/truck.jpg);
+        position: relative;
+        img {
+            width: 319px;
+            height: 140px;
+        }
+        img:nth-child(1){
+            position: absolute;
+            left: 51px;
+            top: -30px;
+        }
+        img:nth-child(2){
+            position: absolute;
+            left: 458px;
+            top: 14px;
+        }
+}
+}
+.services-stlye-3{
+    width: 100%;
+    height: 524px;
+    margin: 122px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 524px;
+        background-image: url(/Assets/image/services/street.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 0;
+        filter: brightness(.3);
+    }
+    .content {
+        width: 480px;
+        height: 524px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        div:nth-child(1) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .i-container{
+            width: 113px;
+            height: 113px;
+            border-radius: 50%;
+            background-color: rgba(32, 89, 246, 0.3);
+            margin-bottom: 16px;
+            position: relative;
+            i{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 55px;
+                color: #fff;
+                margin: auto 0; 
+            }  
+        }
+        h2 {
+            color: #fff;
+            margin-bottom: 46px;
+        }
+        div:nth-child(2) {
+            display: grid;
+            grid-template-columns: 110px 110px 110px 110px;
+            grid-column-gap: 10px;
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                height: 115px;
+                position: relative;
+                cursor: default;
+                span {
+                    color: #fff;
+                    opacity: 0;
+                    transform: translateY(10px);
+                    transition: all .3s ease-in-out;
+                }
+                &:hover span {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+                @extend %icon;
+                i{
+                    color: #fff !important;
+                    top: 15px;
+                    font-size: 50px !important;
+                }
+                time {
+                    color: #fff;
+                    font-size: 16px;
+                }
+                p {
+                    color: #fff;
+                    font-size: 16px;
+                }
+                
+            }
+        }
+        .Description {
+            width: 100%;
+            height: 150px;
+            text-align: justify;
+            position: relative;
+            cursor: default;
+            @extend %circle-btn;
+            a {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+    }
+    
+}
+.services-stlye-4{
+    @extend .services-stlye-1;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 30px;
+    .image {
+        width: 457px;
+        height: 531px;
+        border-top-right-radius: 229px;
+        border-top-left-radius: 229px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        background-image: url(/Assets/image/services/one.jpg);
+        position: relative;
+        img {
+            width: 319px;
+            height: 140px;
+        }
+        img:nth-child(1){
+            position: absolute;
+            left: 138px;
+            top: -30px;
+        }
+        .shape {
+            position: absolute;
+            width: 275px;
+            height: 165px;
+            left: 382px;
+            top: 185px;
+            background-image: url(/Assets/image/services/shape.png);
+        }
+}
+}
+.services-stlye-5{
+    @extend .services-stlye-1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    .image {
+        width: 457px;
+        height: 531px;
+        border-top-right-radius: 229px;
+        border-top-left-radius: 229px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        background-image: url(/Assets/image/services/two.jpg);
+        position: relative;
+        .shape {
+            position: absolute;
+            width: 275px;
+            height: 165px;
+            right: 312px;
+            bottom: 77px;
+            background-image: url(/Assets/image/services/shape.png);
+        }
+}
+}
+.services-stlye-6{
+    @extend .services-stlye-1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    .image {
+        width: 536px;
+        height: 492px;
+        border-radius: 0;
+        background-image: url(/Assets/image/services/five.jpg);
+        background-position: center;
+        position: relative;
+        &::after{
+            content: '';
+            width: 412px;
+            height: 31px;
+            background-color: #fff;
+            position: absolute;
+            bottom: 92px;
+        }
+        &::before{
+            content: '';
+            width: 31px;
+            height: 492px;
+            background-color: #fff;
+            position: absolute;
+            left: 108px;
+        }
+}
+}

@@ -1,0 +1,120 @@
+// All reset codes and bases codes are here
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box
+    
+}
+:root{
+    --primary-color: #{$primary-color};
+    --secondary-color: #{$secondary-color};
+    --tertiary-color: #{$tertiary-color};
+    --text-color: #{$text-light-color};
+    --text-color-reverse:#{$text-light-reverse-color};
+    --element-color: #{$element-light-color};
+    --element-reverse-color:#{$element-light-reverse-color};
+    --body-color: #{$body-light-color};
+}
+.dark-theme{
+    --primary-color: #{$primary-color};
+    --secondary-color: #{$secondary-color};
+    --tertiary-color: #{$tertiary-color};
+    --text-color: #{$text-dark-color};
+    --text-color-reverse:#{$text-dark-reverse-color};
+    --element-color: #{$element-dark-color};
+    --element-reverse-color:#{$element-dark-reverse-color};
+    --body-color: #{$body-dark-color};
+}
+
+body{
+    font-family: 'Shabnam','Myriad Pro',Tahoma;
+    direction: rtl;
+    background-color: var(--body-color);
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+li{
+    list-style:none
+}
+
+a{
+    text-decoration:none;
+    -webkit-transition:all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -ms-transition:all .3s ease-out;
+    -o-transition:all .3s ease-out;
+    transition:all .3s ease-out
+}
+
+a:hover,a:focus,a:visited,a:active {
+    text-decoration:none
+}
+
+i:hover{
+    text-decoration:none
+}
+img{
+    max-width:100%  
+}
+
+hr{
+    border:0;
+    border-bottom:1px solid #ddd;
+    display:block;
+    margin:25px auto;
+    width:100px
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+p {
+    font-size: 13px;
+    font-weight: normal;
+    color: var(--text-color);
+}
+span {
+    font-size: 10px;
+    font-weight: normal;
+}
+b{
+    color: var(--text-color);
+}
+button,::placeholder,input {
+    font-family: 'Shabnam','Myriad Pro',Tahoma;
+}
+.clearfix {
+    clear: both;
+}
+
+// mixins
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@mixin flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-col {
+    display: flex;
+    flex-direction: column;
+}
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}

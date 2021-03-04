@@ -1,0 +1,274 @@
+// Box-Icon-Page
+.pattern-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 80px 0;
+
+    div{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        width: 300px;
+        padding: 15px;
+        border-radius: 10px;
+        height: max-content;
+        background-color: #ffffff;
+        transition: all .2s ease-in;
+        
+        i{
+            font-size: 30px;
+            margin: 10px 0;
+            transition: all .2s ease-in;
+        }
+        h2{
+            margin: 10px;
+            transition: all .3s ease-in;
+        }
+        i:nth-child(2){
+            opacity: 0;
+        }
+        &:hover {
+            box-shadow: 0px 3px 30px 2px rgba(0, 0, 0, 0.26);
+            cursor: pointer;
+            h2 {
+                color:#2059f6;
+            }
+            i:nth-child(1){
+                opacity: 0;
+            }
+            i:nth-child(2){
+                color: #2059f6;
+                opacity: 1;
+            }
+            a{
+                background-color: #2059f6;
+                box-shadow: 0px 3px 30px 2px rgba(44, 29, 29, 0.26);
+
+                i:nth-child(1) {
+                    opacity: 0;
+                }
+                i:nth-child(2) {
+                    position: absolute;
+                    left: -6px;
+                    opacity: 1;
+                    color: #fff;
+                    transform: scale(.6);
+                }
+            }
+        }
+        &:hover>i {
+            color: #2059f6;
+        }
+        a {
+            display: flex;
+            flex-direction: row-reverse;
+            position: absolute;
+            text-align: center;
+            overflow: hidden;
+            bottom: -15px;
+            left: 20px;
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            border-radius: 50%;
+            color: #2059f6;
+            box-shadow: 0px 3px 30px 2px rgba(0, 0, 0, 0.26);
+            transition: all .1s ease-in;
+            i{
+                padding: 0 10px;
+                margin: 0 -2px;
+            }
+        }
+        div{
+            width: 100%;
+            height: 50px;
+            i{
+                position: absolute;
+                font-size: 30px;
+                margin: 10px 0;
+                transition: all .3s ease-in;
+            }
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+}
+.pattern-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 80px 0;
+
+    div{
+        @include flex-col-center;
+        width: 300px;
+        padding: 15px;
+        border-radius: 10px;
+        height: max-content;
+        background-color: #ffffff;
+        transition: all .2s ease-in;
+        i{
+            position: absolute;
+            font-size: 30px;
+            margin: 10px 0;
+            transition: all .3s ease-in;
+        }
+        i:nth-child(2){
+            opacity: 0;
+        }
+        &:hover i {
+            color: #2059f6;
+        }
+        h2{
+            margin: 10px;
+        }
+        a {
+            font-size: 12px;
+            color: #818181;
+            transition: all .3s ease-in;
+            opacity: 0;
+            &:hover{
+                color: #2059f6;
+            }
+        }
+        &:hover {
+            box-shadow: 0px 3px 30px 2px rgba(0, 0, 0, 0.26);
+            cursor: pointer;
+            i:nth-child(1){
+                opacity: 0;
+            }
+            i:nth-child(2){
+                color: #2059f6;
+                opacity: 1;
+            }
+            a{
+                opacity: 1;
+            }
+        }
+        div{
+            width: 100%;
+            height: 50px;
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    } 
+}
+.pattern-three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 80px 0;
+
+    div{
+        @include flex-col-center;
+        width: 300px;
+        padding: 15px;
+        border-radius: 10px;
+        height: max-content;
+        background-color: #ffffff;
+        transition: all .2s ease-in;
+        i{
+            position: absolute;
+            font-size: 30px;
+            margin: 10px 0;
+            transition: all .3s ease-in;
+        }
+        h2{
+            margin: 10px;
+        }
+        i:nth-child(2){
+            opacity: 0;
+        }
+        &:hover {
+            box-shadow: 0px 3px 30px 2px rgba(0, 0, 0, 0.26);
+            cursor: pointer;
+            i:nth-child(1){
+                opacity: 0;
+            }
+            i:nth-child(2){
+                color: #2059f6;
+                opacity: 1;
+            }
+        }
+        &:hover i {
+            color: #2059f6;
+        }
+        div{
+            width: 100%;
+            height: 50px;
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+}
+.pattern-four {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 80px 0;
+
+
+    div{
+        @include flex-col-center;
+        position: relative;
+        width: 300px;
+        padding: 0px;
+        height: max-content;
+        background-color: #ffffff;
+        transition: all .3s ease-in ;
+        &.Line{
+            width: 0%;
+            height: 7px;
+            background-color: #2059f6;
+        }
+        &:hover .Line {
+            width: 100%;
+            box-shadow: 0px 0px 13px 2px rgba(32, 89, 246, 0.16);
+        }
+        i{
+            position: absolute;
+            font-size: 30px;
+            margin: 10px 0;
+            transition: all .3s ease-in;
+        }
+        i:nth-child(2){
+            opacity: 0;
+        }
+        
+        h2{
+            margin: 10px;
+        }
+        &:hover  {
+            box-shadow: 0px 3px 30px 2px rgba(0, 0, 0, 0.26);
+            cursor: pointer;
+            i:nth-child(1){
+                opacity: 0;
+            }
+            i:nth-child(2){
+                color: #2059f6;
+                opacity: 1;
+            }
+        }
+        div{
+            width: 100%;
+            height: 50px;
+            &:hover {
+                box-shadow: none;
+            }
+        }
+        
+    }
+}
