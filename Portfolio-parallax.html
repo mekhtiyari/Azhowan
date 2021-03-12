@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rlt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Parallax</title>
+  <link rel="stylesheet" href="/Assets/css/main.css">
+  <link rel="stylesheet" href="/Assets/fonticon/RemixIcon-master/fonts/remixicon.css">
+  <link rel="stylesheet" href="/Assets/fonticon/eva-icons/style/eva-icons.css">
+</head>
+<body>
+  <main>
+    <section class="portfolio-design-one">
+      <div class="image-container">
+          <a href="#"><img  class="parallax" src="/Assets/image/Portfolio/zaha-hadid.jpg" alt=""></a>
+        </div>
+        <div class="author"><span>زاها حدید</span><i class="eva eva-people-outline"></i></div>
+        <div class="date"><i class="eva eva-calendar-outline"></i><span>2004</span></div>
+        <div class="category"><i class="eva eva-menu-outline "></i><span>معماری</span></div>
+        <div class="title"><h3>طراحی نمای ساختمان: بازی نور و سایه</h3></div>
+      </section>
+      <section class="portfolio-design-two">
+        <div class="image-container">
+            <a href="#"><img  class="parallax" src="/Assets/image/Portfolio/zaha-hadid.jpg" alt=""></a>
+          </div>
+          <div class="author"><span>زاها حدید</span><i class="eva eva-people-outline"></i></div>
+          <div class="date"><i class="eva eva-calendar-outline"></i><span>2004</span></div>
+          <div class="category"><i class="eva eva-menu-outline "></i><span>معماری</span></div>
+          <div class="title"><h3>طراحی نمای ساختمان: بازی نور و سایه</h3></div>
+
+        </section>
+  </main>
+
+<script>
+  //movement: opposite mouse movment
+		document.querySelector('.portfolio-design-one>.image-container').addEventListener('mousemove', function(e){
+			this.querySelectorAll('.parallax').forEach(el=>{
+				const x = (window.innerWidth - e.pageX * 2) / 100;
+				const y = (window.innerWidth - e.pageY * 2) / 100;
+				el.style.transform = `
+							translateX(${x}px)
+							translateY(${y}px)
+              scale(1.15) 
+				`;
+			})
+		});
+    // movment: follow mouse movment
+    document.querySelector('.portfolio-design-two>.image-container').addEventListener('mousemove', function(e){
+			this.querySelectorAll('.parallax').forEach(el=>{
+				const x = (window.innerWidth + e.pageX *2) / 100;
+				const y = (window.innerWidth + e.pageY *2) / 100; 
+				el.style.transform = `
+							translateX(${x}px)
+							translateY(${y}px)
+              scale(1.15) 
+				`;
+			})
+		});
+</script>
+</body>
+</html>

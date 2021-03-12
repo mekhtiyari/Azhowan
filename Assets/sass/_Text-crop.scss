@@ -1,0 +1,22 @@
+.text-crop {
+    width: 100%;
+    @include center;
+    margin: 1em 0;
+    .text {
+        width: 100%;
+        height: 100%;
+        @include center;
+        p{
+            font-family: 'Teko', sans-serif;
+            text-align: center;
+            font-size: 10em;
+            font-weight: bolder;
+            background-image: url(/Assets/image/text-crop/nature.jpg);
+            background-size: cover;
+            background-position: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    }
+}
