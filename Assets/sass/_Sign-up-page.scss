@@ -1,0 +1,862 @@
+.forms {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    .logo-container {
+        width: 21.25em;
+        height: 7.25em;
+        overflow: hidden;
+        margin: 5em 0 0 0;
+    }
+    .login {
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        right: 100vh;
+        opacity: 0;
+        bottom: 10vh;
+        transition: opacity .7s ease-in , right .9s cubic-bezier(0, 0.55, 0.45, 1);
+        .form-section {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            .righ-side {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex: 1;
+                .circle {
+                    width: 1.5em;
+                    height: 1.5em;
+                    margin: 10.5em 5.25em 0 0;
+                    border-radius: 50%;
+                    background-color: rgba($color: $secondary-color, $alpha: 1);
+                }
+            }
+            .forms-container {
+                position: relative;
+                max-width: 35.5em;
+                height: 42em;
+                flex: 1.5;
+                .login-form-container {
+                    display: flex;
+                    justify-content: center;
+                    .login-form-box {
+                        position: absolute;
+                        width: 93%;
+                        height: 30em;
+                        bottom: 5.2em;
+                        background-color: var(--element-color);
+                        border-radius: 1.5em;
+                        padding: 1em 2.5em 1em 1.5em;
+                        z-index: 3;
+                        display: flex;
+                        flex-direction: column;
+                        @extend %general-shadow;
+                        .form-title {
+                            position: relative;
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            .triangle-container {
+                                position: relative;
+                                right: 2em;
+                                transform-origin: center;
+                                transform: rotate(65deg);
+                                opacity: 0.16;
+                                @extend %triangle-btn;
+                                .triangle {
+                                    background-color: rgba($color: $secondary-color, $alpha: 1);
+                                }
+                            }
+                            .text {
+                                position: relative;
+                                left: 1.5em;
+                                color: $secondary-color;
+                                font-size: 1.5em;
+                                font-weight: bold;
+                                padding: 1em;
+                            }
+                        }
+                        .putbox {
+                            position: relative;
+                            width: 100%;
+                            height: 3em;
+                            margin: 1em 0;
+                            border-bottom: 1px solid rgba($color: $tertiary-color, $alpha: 0.16);
+                            input {
+                                width: 100%;
+                                height: 100%;
+                                outline: none;
+                                border: none;
+                            }
+                        }
+                        .login-remember {
+                            display: flex;
+                            justify-content: space-between;
+                            label {
+                                cursor: pointer;
+                                display: flex;
+                                align-items: center;
+                                .tickmark {
+                                    position: relative;
+                                    width: 1.3em;
+                                    height: 1.3em;
+                                    border: 1px solid rgba($color: $tertiary-color, $alpha: 0.5);
+                                    margin-left: 0.5em;
+                                    color: $primary-color;
+                                    i {
+                                        position: absolute;
+                                        bottom: -8px;
+                                        left: -8px;
+                                        font-size: 2.5rem;
+                                        font-weight: 400;
+                                        opacity: 0;
+                                        transform: scale(1.1);
+                                        transition: all 0.3s ease-in;
+                                    }
+                                }
+                                .subject {
+                                    color: $tertiary-color;
+                                }
+                            }
+                            .checkbox {
+                                display: none;
+                                z-index: 1;
+                            }
+                            .checkbox:checked ~ .tickmark i {
+                                opacity: 1;
+                                transform: scale(1);
+                            }
+                            .form-btn {
+                                @extend %forms-btn;
+                            }
+                        }
+                        .or {
+                            margin: 3em 0;
+                            width: 100%;
+                            @include center;
+                            span {
+                                @include center;
+                                width: 2.5em;
+                                height: 2.5em;
+                                border-radius: 50%;
+                                background-color: rgba($color: $secondary-color, $alpha: 0.16);
+                                color: $secondary-color;
+                            }
+                        }
+                        .social-btns {
+                            @include center;
+                            @extend %forms-btn;
+                            a {
+                                background-color: var(--element-color);
+                            }
+                            &:hover a {
+                                box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.26);
+                            }
+                            .google a {
+                                color: #ff2020;
+                                margin: 0 2em;
+                                transition: all 0.4s cubic-bezier(0.27, -1.45, 0.45, 1.58);
+                                &:hover {
+                                    transform: scale(1.2);
+                                }
+                            }
+                            .facebook a {
+                                color: #1974ec;
+                                margin: 0 2em;
+                                transition: all 0.4s cubic-bezier(0.27, -1.45, 0.45, 1.58);
+                                &:hover {
+                                    transform: scale(1.2);
+                                }
+                            }
+                        }
+                    }
+                    .sign-in-box {
+                        position: absolute;
+                        right: -2em;
+                        bottom: 3.2em;
+                        width: 31.25em;
+                        height: 24em;
+                        border-radius: 1.5em;
+                        background-color: rgba($color: $primary-color, $alpha: 0.16);
+                        z-index: 2;
+                        .btn-container {
+                            position: absolute;
+                            width: 12em;
+                            height: 5em;
+                            right: 0em;
+                            top: -1em;
+                            transition: right 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+                            .btn {
+                                position: absolute;
+                                transform-origin: center;
+                                transform: rotate(50deg);
+                                @extend %triangle-btn;
+                                .triangle {
+                                    @include center;
+                                    background-color: $primary-color;
+                                    i {
+                                        position: absolute;
+                                        top: 0.4em;
+                                        left: -0.07em;
+                                        font-size: 2em;
+                                        color: #fff;
+                                        z-index: 1;
+                                        transform: rotate(10deg) skewX(29deg) scale(1);
+                                    }
+                                    p {
+                                        position: absolute;
+                                        width: max-content;
+                                        right: 5.2em;
+                                        line-height: 5em;
+                                        font-size: 1em;
+                                        font-weight: bold;
+                                        transform: rotate(10deg) skewX(29deg) scale(1);
+                                        color: $primary-color;
+                                    }
+                                }
+                            }
+                            &:hover {
+                                right: -6em;
+                            }
+                        }
+                    }
+                    .forget-pass-box {
+                        position: absolute;
+                        left: -1.5em;
+                        bottom: 2em;
+                        width: 27.25em;
+                        height: 17.25em;
+                        border-radius: 1.5em;
+                        background-color: rgba($color: $quaternary-color, $alpha: 0.16);
+                        z-index: 1;
+                        .btn-container {
+                            position: absolute;
+                            width: 12em;
+                            height: 5em;
+                            left: 1em;
+                            top: -3em;
+                            transition: left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+                            .btn {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                transform-origin: center;
+                                transform: rotate(60deg);
+                                @extend %triangle-btn;
+                                .triangle {
+                                    @include center;
+                                    background-color: $quaternary-color;
+                                    i {
+                                        position: absolute;
+                                        top: 0.4em;
+                                        left: -0.07em;
+                                        font-size: 2em;
+                                        color: #fff;
+                                        z-index: 1;
+                                        transform: rotate(0deg) skewX(27deg) scale(1);
+                                    }
+                                    p {
+                                        position: absolute;
+                                        width: max-content;
+                                        left: 3.2em;
+                                        font-size: 1em;
+                                        font-weight: bold;
+                                        transform: rotate(0deg) skewX(27deg) scale(1);
+                                        color: $quaternary-color;
+                                    }
+                                }
+                            }
+                            &:hover {
+                                left: -8em;
+                            }
+                        }
+                    }
+                }
+            }
+            .left-side {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                flex: 1;
+                align-items: center;
+                .circle {
+                    width: 2.25em;
+                    height: 2.25em;
+                    border-radius: 50%;
+                    align-self: flex-start;
+                    margin-right: 8em;
+                    background-color: rgba($color: $tertiary-color, $alpha: 0.16);
+                }
+                img {
+                    max-width: 22.5em;
+                    filter: grayscale(1);
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+    .sign-up {
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        left: 100vh;
+        opacity: 0;
+        bottom: 10vh;
+        transition: opacity .7s ease-in , left .9s cubic-bezier(0, 0.55, 0.45, 1);
+        .form-section {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            .righ-side {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex: 1;
+                .circle {
+                    width: 1.5em;
+                    height: 1.5em;
+                    margin: 10.5em 0 0 0;
+                    border-radius: 50%;
+                    background-color: rgba($color: $primary-color, $alpha: 1);
+                }
+                .circle:last-child {
+                    width: 3em;
+                    height: 3em;
+                    margin: 10.5em 5.25em 0 0;
+                    background-color: rgba($color: $tertiary-color, $alpha: 0.16);
+                }
+            }
+            .forms-container {
+                position: relative;
+                max-width: 35.5em;
+                height: 42em;
+                flex: 1.5;
+                .sign-up-form-container {
+                    display: flex;
+                    justify-content: center;
+                    .sign-up-form-box {
+                        position: absolute;
+                        width: 93%;
+                        height: 35em;
+                        bottom: 3.2em;
+                        background-color: var(--element-color);
+                        border-radius: 1.5em;
+                        padding: 1em 2.5em 1em 1.5em;
+                        z-index: 3;
+                        display: flex;
+                        flex-direction: column;
+                        @extend %general-shadow;
+                        .form-title {
+                            position: relative;
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            .triangle-container {
+                                position: relative;
+                                right: 2em;
+                                transform-origin: center;
+                                transform: rotate(65deg);
+                                opacity: 0.16;
+                                @extend %triangle-btn;
+                                .triangle {
+                                    background-color: rgba($color: $primary-color, $alpha: 1);
+                                }
+                            }
+                            .text {
+                                position: relative;
+                                left: 1.5em;
+                                color: $primary-color;
+                                font-size: 1.5em;
+                                font-weight: bold;
+                                padding: 1em;
+                                i {
+                                    padding: 0 0.1em;
+                                }
+                            }
+                        }
+                        .putbox {
+                            position: relative;
+                            width: 100%;
+                            height: 3em;
+                            margin: 1em 0;
+                            border-bottom: 1px solid rgba($color: $tertiary-color, $alpha: 0.16);
+                            input {
+                                width: 100%;
+                                height: 100%;
+                                outline: none;
+                                border: none;
+                            }
+                        }
+                        .sign-up-rules {
+                            display: flex;
+                            justify-content: space-between;
+                            label {
+                                cursor: pointer;
+                                display: flex;
+                                align-items: center;
+                                .tickmark {
+                                    position: relative;
+                                    width: 1.3em;
+                                    height: 1.3em;
+                                    border: 1px solid rgba($color: $tertiary-color, $alpha: 0.5);
+                                    margin-left: 0.5em;
+                                    color: $primary-color;
+                                    i {
+                                        position: absolute;
+                                        bottom: -8px;
+                                        left: -8px;
+                                        font-size: 2.5rem;
+                                        font-weight: 400;
+                                        opacity: 0;
+                                        transform: scale(1.1);
+                                        transition: all 0.3s ease-in;
+                                    }
+                                }
+                                .subject {
+                                    color: $tertiary-color;
+                                    font-size: 0.8em;
+                                    a {
+                                        font-weight: bold;
+                                    }
+                                    a:first-child {
+                                        color: $primary-color;
+                                    }
+                                    a:last-child {
+                                        color: $quaternary-color;
+                                    }
+                                }
+                            }
+                            .checkbox {
+                                display: none;
+                                z-index: 1;
+                            }
+                            .checkbox:checked ~ .tickmark i {
+                                opacity: 1;
+                                transform: scale(1);
+                            }
+                            .form-btn {
+                                @extend %forms-btn;
+                                &:hover a {
+                                    @extend %btn-shadow-hover;
+                                }
+                                a {
+                                    background-color: rgba($color: $primary-color, $alpha: 1);
+                                }
+                            }
+                        }
+                        .or {
+                            margin: 3em 0;
+                            width: 100%;
+                            @include center;
+                            span {
+                                @include center;
+                                width: 2.5em;
+                                height: 2.5em;
+                                border-radius: 50%;
+                                background-color: rgba($color: $secondary-color, $alpha: 0.16);
+                                color: $secondary-color;
+                            }
+                        }
+                        .social-btns {
+                            @include center;
+                            @extend %forms-btn;
+                            a {
+                                background-color: var(--element-color);
+                            }
+                            &:hover a {
+                                box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.26);
+                            }
+                            .google a {
+                                color: #ff2020;
+                                margin: 0 2em;
+                                transition: all 0.4s cubic-bezier(0.27, -1.45, 0.45, 1.58);
+                                &:hover {
+                                    transform: scale(1.2);
+                                }
+                            }
+                            .facebook a {
+                                color: #1974ec;
+                                margin: 0 2em;
+                                transition: all 0.4s cubic-bezier(0.27, -1.45, 0.45, 1.58);
+                                &:hover {
+                                    transform: scale(1.2);
+                                }
+                            }
+                        }
+                    }
+                    .login-box {
+                        position: absolute;
+                        left: -0.2em;
+                        bottom: 1.2em;
+                        width: 31.25em;
+                        height: 30em;
+                        border-radius: 1.5em;
+                        background-color: rgba($color: $secondary-color, $alpha: 0.16);
+                        z-index: 1;
+                        .btn-container {
+                            position: absolute;
+                            width: 12em;
+                            height: 5em;
+                            left: -0.5em;
+                            top: -3em;
+                            transition: left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+                            .btn {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                transform-origin: center;
+                                transform: rotate(60deg);
+                                @extend %triangle-btn;
+                                .triangle {
+                                    @include center;
+                                    background-color: $secondary-color;
+                                    i {
+                                        position: absolute;
+                                        top: 0.4em;
+                                        left: -0.07em;
+                                        font-size: 2em;
+                                        color: #fff;
+                                        z-index: 1;
+                                        transform: rotate(0deg) skewX(27deg) scale(1);
+                                    }
+                                    p {
+                                        position: absolute;
+                                        width: max-content;
+                                        left: 3.2em;
+                                        font-size: 1em;
+                                        font-weight: bold;
+                                        transform: rotate(0deg) skewX(27deg) scale(1);
+                                        color: $secondary-color;
+                                    }
+                                }
+                            }
+                            &:hover {
+                                left: -5em;
+                            }
+                        }
+                    }
+                    .forget-pass-box {
+                        position: absolute;
+                        left: -1.8em;
+                        bottom: 2em;
+                        width: 27.25em;
+                        height: 17.25em;
+                        border-radius: 1.5em;
+                        background-color: rgba($color: $quaternary-color, $alpha: 0.16);
+                        z-index: 2;
+                        .btn-container {
+                            position: absolute;
+                            width: 12em;
+                            height: 5em;
+                            left: 1em;
+                            top: -3em;
+                            transition: left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+                            .btn {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                transform-origin: center;
+                                transform: rotate(60deg);
+                                @extend %triangle-btn;
+                                .triangle {
+                                    @include center;
+                                    background-color: $quaternary-color;
+                                    i {
+                                        position: absolute;
+                                        top: 0.4em;
+                                        left: -0.07em;
+                                        font-size: 2em;
+                                        color: #fff;
+                                        z-index: 1;
+                                        transform: rotate(0deg) skewX(27deg) scale(1);
+                                    }
+                                    p {
+                                        position: absolute;
+                                        width: max-content;
+                                        left: 3.2em;
+                                        font-size: 1em;
+                                        font-weight: bold;
+                                        transform: rotate(0deg) skewX(27deg) scale(1);
+                                        color: $quaternary-color;
+                                    }
+                                }
+                            }
+                            &:hover {
+                                left: -8em;
+                            }
+                        }
+                    }
+                }
+            }
+            .left-side {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                flex: 1;
+                align-items: center;
+                .circle {
+                    position: absolute;
+                    left: 0;
+                    bottom: -10vh;
+                    width: 2.25em;
+                    height: 2.25em;
+                    border-radius: 0 100% 0 0;
+                    background-color: rgba($color: $quaternary-color, $alpha: 1);
+                }
+                img {
+                    max-width: 22.5em;
+                    filter: grayscale(1);
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+    .forget-pass {
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        opacity: 0;
+        right: 100vh;
+        bottom: 10vh;
+        transition: opacity .7s ease-in , right .9s cubic-bezier(0, 0.55, 0.45, 1) ;
+        .form-section {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            .righ-side {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex: 1;
+                .circle {
+                    width: 1.5em;
+                    height: 1.5em;
+                    margin: 10.5em 5.25em 0 0;
+                    border-radius: 50%;
+                    background-color: rgba($color: $quaternary-color, $alpha: 1);
+                }
+                .circle:last-child {
+                    width: 2em;
+                    height: 2em;
+                    margin: 1em 7.25em 0 0;
+                    background-color: rgba($color: $tertiary-color, $alpha: 0.16);
+                }
+            }
+            .forms-container {
+                position: relative;
+                max-width: 35.5em;
+                height: 42em;
+                flex: 1.5;
+                .forget-pass-form-container {
+                    display: flex;
+                    justify-content: center;
+                    .login-form-box {
+                        position: absolute;
+                        width: 93%;
+                        height: 16em;
+                        top: 20%;
+                        background-color: var(--element-color);
+                        border-radius: 1.5em;
+                        padding: 1em 2.5em 1em 1.5em;
+                        z-index: 3;
+                        display: flex;
+                        flex-direction: column;
+                        @extend %general-shadow;
+                        .form-title {
+                            position: relative;
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            .triangle-container {
+                                position: relative;
+                                right: 2em;
+                                transform-origin: center;
+                                transform: rotate(65deg);
+                                opacity: 0.16;
+                                @extend %triangle-btn;
+                                .triangle {
+                                    background-color: rgba($color: $quaternary-color, $alpha: 1);
+                                }
+                            }
+                            .text {
+                                position: relative;
+                                left: 1.5em;
+                                color: $quaternary-color;
+                                font-size: 1.5em;
+                                font-weight: bold;
+                                padding: 1em;
+                            }
+                        }
+                        .putbox {
+                            position: relative;
+                            width: 100%;
+                            height: 3em;
+                            margin: 1em 0;
+                            border-bottom: 1px solid rgba($color: $tertiary-color, $alpha: 0.16);
+                            input {
+                                width: 100%;
+                                height: 100%;
+                                outline: none;
+                                border: none;
+                            }
+                        }
+                        .form-btn-container {
+                            display: flex;
+                            justify-content: flex-end;
+                            .form-btn {
+                                @extend %forms-btn;
+                                &:hover a {
+                                    @extend %btn-shadow-hover-4;
+                                }
+                                a {
+                                    background-color: $quaternary-color;
+                                }
+                            }
+                        }
+                    }
+                    .sign-in-box {
+                        position: absolute;
+                        right: -2em;
+                        top: 25%;
+                        width: 31.25em;
+                        height: 15em;
+                        border-radius: 1.5em;
+                        background-color: rgba($color: $primary-color, $alpha: 0.16);
+                        z-index: 2;
+                        .btn-container {
+                            position: absolute;
+                            width: 12em;
+                            height: 5em;
+                            right: 0em;
+                            top: -1em;
+                            transition: right 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+                            .btn {
+                                position: absolute;
+                                transform-origin: center;
+                                transform: rotate(50deg);
+                                @extend %triangle-btn;
+                                .triangle {
+                                    @include center;
+                                    background-color: $primary-color;
+                                    i {
+                                        position: absolute;
+                                        top: 0.4em;
+                                        left: -0.07em;
+                                        font-size: 2em;
+                                        color: #fff;
+                                        z-index: 1;
+                                        transform: rotate(10deg) skewX(29deg) scale(1);
+                                    }
+                                    p {
+                                        position: absolute;
+                                        width: max-content;
+                                        right: 5.2em;
+                                        line-height: 5em;
+                                        font-size: 1em;
+                                        font-weight: bold;
+                                        transform: rotate(10deg) skewX(29deg) scale(1);
+                                        color: $primary-color;
+                                    }
+                                }
+                            }
+                            &:hover {
+                                right: -6em;
+                            }
+                        }
+                    }
+                    .login-box {
+                        position: absolute;
+                        left: -1.5em;
+                        top: 35%;
+                        width: 27.25em;
+                        height: 13.25em;
+                        border-radius: 1.5em;
+                        background-color: rgba($color: $secondary-color, $alpha: 0.16);
+                        z-index: 1;
+                        .btn-container {
+                            position: absolute;
+                            width: 12em;
+                            height: 5em;
+                            left: 1em;
+                            top: -3em;
+                            transition: left 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+                            .btn {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                transform-origin: center;
+                                transform: rotate(60deg);
+                                @extend %triangle-btn;
+                                .triangle {
+                                    @include center;
+                                    background-color: $secondary-color;
+                                    i {
+                                        position: absolute;
+                                        top: 0.4em;
+                                        left: -0.07em;
+                                        font-size: 2em;
+                                        color: #fff;
+                                        z-index: 1;
+                                        transform: rotate(0deg) skewX(27deg) scale(1);
+                                    }
+                                    p {
+                                        position: absolute;
+                                        width: max-content;
+                                        left: 3.2em;
+                                        font-size: 1em;
+                                        font-weight: bold;
+                                        transform: rotate(0deg) skewX(27deg) scale(1);
+                                        color: $secondary-color;
+                                    }
+                                }
+                            }
+                            &:hover {
+                                left: -3em;
+                            }
+                        }
+                    }
+                }
+            }
+            .left-side {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                flex: 1;
+                align-items: center;
+                .circle {
+                    width: 2.25em;
+                    height: 2.25em;
+                    border-radius: 50%;
+                    align-self: flex-start;
+                    margin-right: 8em;
+                    background-color: rgba($color: $tertiary-color, $alpha: 0.16);
+                }
+                img {
+                    max-width: 22.5em;
+                    filter: grayscale(1);
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+    .actived-form {
+        opacity: 1;
+        right: 0;
+    }
+    .actived-form-2{
+        opacity: 1;
+        left: 0;
+    }
+}

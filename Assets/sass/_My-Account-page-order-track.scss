@@ -1,0 +1,76 @@
+.account-page {
+    .order-track {
+        display: flex;
+        flex-direction: column;
+        flex: 4;
+        height: 100vh;
+        padding: 3.93em 3.93em 0 3.93em;
+        .title {
+            display: inline-flex;
+            align-items: center;
+            i {
+                font-size: 2.5em;
+                color: $primary-color;
+                margin-left: 0.5em;
+            }
+        }
+        .order-track-container {
+            font-size: 16px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            margin-top: 2em ;
+            form{
+                max-width: 19em;
+                .putbox {
+                    position: relative;
+                    width: 100%;
+                    height: 3em;
+                    margin: 2em 0;
+                    transition: all .3s ease-in-out;
+                    input {
+                        width: 100%;
+                        height: 100%;
+                        outline: none;
+                        border: none;
+                    }
+                }
+                .form-btn {
+                    float: left;
+                    @extend %forms-btn;
+                }
+            }
+            .border{
+                box-shadow: 0 2px 0px 0px rgba($color: $secondary-color, $alpha: 0.6);
+            }
+        }
+        .truck{
+            position: relative;
+            max-width: 30em;
+            align-self: flex-end;
+            justify-content: flex-end;
+            i{
+                color: rgba($color: $primary-color, $alpha: 0.5);
+                font-size: 28em;
+            }
+            .speed-line{
+                position: absolute;
+                width: 24em;
+                height: 3.5em;
+                left: 0;
+                background-color: $primary-color;
+            }
+            span:nth-child(2){
+                left: 6%;
+                top: 40%;
+            }
+            span:nth-child(3){
+                left: 2%;
+                top: 50%;
+            }
+            span:last-child{
+                top: 30%;
+            }
+        }
+    }
+}

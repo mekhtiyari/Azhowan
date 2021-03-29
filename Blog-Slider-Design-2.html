@@ -18,7 +18,9 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide blog-slide">
                     <div class="detail">
-                        <div class="category"><a href="#"><p>خودرو</p></a></div>
+                        <div class="category"><a href="#">
+                                <p>خودرو</p>
+                            </a></div>
                         <div class="date"><time>9 دی</time></div>
                     </div>
                     <div class="image"><img src="/Assets/image/blog-slider/6.jpg" alt=""></div>
@@ -36,7 +38,9 @@
                 </div>
                 <div class="swiper-slide blog-slide">
                     <div class="detail">
-                        <div class="category"><a href="#"><p>خودرو</p></a></div>
+                        <div class="category"><a href="#">
+                                <p>خودرو</p>
+                            </a></div>
                         <div class="date"><time>21 اردیبهشت</time></div>
                     </div>
                     <div class="image"><img src="/Assets/image/blog/four.jpg" alt=""></div>
@@ -54,7 +58,9 @@
                 </div>
                 <div class="swiper-slide blog-slide">
                     <div class="detail">
-                        <div class="category"><a href="#"><p>خودرو</p></a></div>
+                        <div class="category"><a href="#">
+                                <p>خودرو</p>
+                            </a></div>
                         <div class="date"><time>5 مرداد</time></div>
                     </div>
                     <div class="image"><img src="/Assets/image/services/camaro.jpg" alt=""></div>
@@ -72,7 +78,9 @@
                 </div>
                 <div class="swiper-slide blog-slide">
                     <div class="detail">
-                        <div class="category"><a href="#"><p>خودرو</p></a></div>
+                        <div class="category"><a href="#">
+                                <p>خودرو</p>
+                            </a></div>
                         <div class="date"><time>7 فروردین</time></div>
                     </div>
                     <div class="image"><img src="/Assets/image/blog-slider/4.jpg" alt=""></div>
@@ -90,7 +98,9 @@
                 </div>
                 <div class="swiper-slide blog-slide">
                     <div class="detail">
-                        <div class="category"><a href="#"><p>خودرو</p></a></div>
+                        <div class="category"><a href="#">
+                                <p>خودرو</p>
+                            </a></div>
                         <div class="date"><time>9 دی</time></div>
                     </div>
                     <div class="image"><img src="/Assets/image/blog-slider/2.jpg" alt=""></div>
@@ -108,7 +118,9 @@
                 </div>
                 <div class="swiper-slide blog-slide">
                     <div class="detail">
-                        <div class="category"><a href="#"><p>خودرو</p></a></div>
+                        <div class="category"><a href="#">
+                                <p>خودرو</p>
+                            </a></div>
                         <div class="date"><time>9 دی</time></div>
                     </div>
                     <div class="image"><img src="/Assets/image/blog-slider/1.jpg" alt=""></div>
@@ -136,14 +148,35 @@
     <script src="/Assets/scripts/swiper-bundle.min.js"></script>
     <script src="/Assets/scripts/swiper.js"></script>
     <script>
-            var swiper = new Swiper('.blog', {
-            slidesPerView: 4.1,
+        var swiper = new Swiper('.blog', {
+            slidesPerView: 2,
             spaceBetween: 13,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20
+                },
+                // when window width is >= 640px
+                768: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 40
+                },
+                1024: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 40
+                },
+                1360: {
+                    slidesPerView: 5.1,
+                    spaceBetween: 40
+                },
             }
         });
     </script>
 </body>
+
 </html>
