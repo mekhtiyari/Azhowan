@@ -80,6 +80,9 @@ h2 {
     font-size: 16px;
     font-weight: bold;
 }
+h3,h4{
+    color: var(--text-color);
+}
 p {
     font-size: 13px;
     font-weight: normal;
@@ -92,7 +95,10 @@ span {
 b{
     color: var(--text-color);
 }
-button,::placeholder,input {
+input{
+    background-color: var(--element-color);
+}
+button,::placeholder,input,select,textarea {
     font-family: 'Shabnam','Myriad Pro',Tahoma;
 }
 .clearfix {

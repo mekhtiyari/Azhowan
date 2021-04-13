@@ -1,0 +1,124 @@
+.checkout-container {
+    .shipping-info-container {
+        width: 100%;
+        margin-bottom: 1.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h3 {
+            margin: 1em 0;
+        }
+        .shipping-info {
+            display: flex;
+            justify-content: space-between;
+            border-radius: 1.5em 0 1.5em 1.5em;
+            overflow: hidden;
+            background-color: var(--body-color);
+            @extend %general-shadow;
+            .current-address {
+                padding: 2em;
+                ul {
+                    font-weight: normal;
+                    font-size: 0.8em;
+                    li {
+                        line-height: 2em;
+                        color: var(--text-color);
+                    }
+                }
+            }
+
+            .edit-address {
+                font-size: 0.8em;
+                font-weight: bold;
+                color: $primary-color;
+            }
+            .new-address {
+                position: relative;
+                width: 17.75em;
+                min-height: 15.25em;
+                background-image: url(/Assets/image/cart/address.PNG);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: aquamarine;
+                p {
+                    position: absolute;
+                    top: 65%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: $primary-color;
+                    font-weight: bold;
+                    cursor: default;
+                }
+                .add-new-adress-btn {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    @extend %add-btn;
+                    background-color: $primary-color;
+                    &:hover {
+                        @extend %btn-shadow-hover;
+                        i {
+                            transform: rotate(90deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .note-container {
+        width: 50%;
+        height: 100%;
+        .note-box {
+            width: 27em;
+            height: 20.5em;
+            border-radius: 2em 0 2em 2em;
+            background-color: rgba($color: $primary-color, $alpha: 0.16);
+            padding: 1em;
+            margin: 1.5em 0;
+            textarea {
+                position: relative;
+                max-width: 30em;
+                height: 22em;
+                border-radius: 2em 0 2em 2em;
+                padding: 1em;
+                line-height: 2.35em;
+                border: none;
+                outline: none;
+                color: $primary-color;
+                resize: none;
+                background-attachment: local;
+                background-image: repeating-linear-gradient(
+                    rgba($color: $primary-color, $alpha: 0.16),
+                    rgba($color: $primary-color, $alpha: 0.16) 30px,
+                    #fff 30px,
+                    #fff 31px,
+                    #fff 31px
+                );
+                &::placeholder {
+                    color: $primary-color;
+                    line-height: 2.3em;
+                }
+            }
+        }
+    }
+    .datepicker {
+        width: 50%;
+        .date-box {
+            margin-top: 1.5em;
+            width: 100%;
+            #input-date{
+                text-align: center;
+                width: 33.5em;
+                border: none;
+                outline: none;
+                margin-top: 2em;
+                background: transparent;
+                color: var(--text-color);
+            }
+            .inline-datepicker{
+                width:28em ;
+            }
+        }
+    }
+}

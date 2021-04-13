@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Shipping Method</title>
+    <link rel="stylesheet" href="/Assets/css/main.css">
+    <link rel="stylesheet" href="/Assets/fonticon/RemixIcon-master/fonts/remixicon.css">
+    <link rel="stylesheet" href="/Assets/fonticon/eva-icons/style/eva-icons.css">
+    <link rel="stylesheet" href="/Assets/css/persian-datepicker.css">
+</head>
+
+<body>
+    <main class="cart-container">
+        <section class="cart-form">
+            <div class="cart-nav">
+                <div><img src="/assets/image/logo/small-logo.png" alt=""></div>
+                <i class="eva eva-arrow-ios-back-outline"></i>
+                <span>سبد خرید</span>
+            </div>
+            <div class="guidline-container">
+                <ul class="titles">
+                    <li>
+                        <div class="guidline-title">سبد خرید</div>
+                    </li>
+                    <li class="active-title">
+                        <div class="guidline-title">تسویه حساب</div>
+                    </li>
+                    <li>
+                        <div class="guidline-title">تشکر</div>
+                    </li>
+                </ul>
+                <ul class="balls">
+                    <li class="passed-session"></li>
+                    <li class="active-session">
+                    <li></li>
+                </ul>
+            </div>
+            <form>
+                <div class="checkout-container">
+                    <div class="checkout-header">
+                        <div class="headline passed">
+                            <div class="step">1</div>اطلاعات مشتری
+                        </div>
+                        <div class="headline active">
+                            <div class="step">2</div>اطلاعات حمل و نقل
+                        </div>
+                        <div class="headline">
+                            <div class="step">3</div>اطلاعات پرداخت
+                        </div>
+                    </div>
+                    <div class="shipping-info-container">
+                        <h3>اطلاعات حمل و نقل</h3>
+                        <div class="shipping-info">
+                            <div class="current-address">
+                                <ul>
+                                    <li>ایران</li>
+                                    <li>گلستان</li>
+                                    <li>گرگان</li>
+                                    <li>همون اولین خیابون دیگه که تو مرحله قبل وارد کردی</li>
+                                    <li>همون کد پستی</li>
+                                </ul>
+                                <br>
+                                <a class="edit-address" href="">ویرایش آدرس</a>
+                            </div>
+                            <div class="new-address">
+                                <a class="add-new-adress-btn" href="#"><i class="eva eva-plus-outline"></i></a>
+                                <p>افزودن آدرس جدید</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note-container">
+                        <h3>یادداشت همراه سفارش</h3>
+                        <div class="note-box">
+                            <textarea name="" id="" cols="100" rows="10"
+                                placeholder="یادداشت‌ها درباره سفارش شما، برای مثال نکات مهم درباره نحوه تحویل سفارش"></textarea>
+                        </div>
+                    </div>
+                    <div class="datepicker">
+                        <h3>زمان ارسال کالا</h3>
+                        <div class="date-box">
+                            <div class="inline-datepicker"></div>
+                            <input id="input-date"/>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="cart-aside">
+            <div class="cart-summary">
+                <h4>خلاصه سفرش</h4>
+                <div class="cart-items">
+                    <div class="item">
+                        <div class="item-info">
+                            <div class="img-box">
+                                <img src="/Assets/image/cart/mustang.png" alt="">
+                            </div>
+                            <a href="#">جیپ رانگلر مدل موپار</a>
+                        </div>
+                        <div class="item-price">
+                            <div class="price">183.500.000</div>
+                            <div class="currency">تومان</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-info">
+                            <div class="img-box">
+                                <img src="/Assets/image/cart/jeep.png" alt="">
+                            </div>
+                            <a href="#">جیپ رانگلر مدل موپار</a>
+                        </div>
+                        <div class="item-price">
+                            <div class="price">183.500.000</div>
+                            <div class="currency">تومان</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-info">
+                            <div class="img-box">
+                                <img src="/Assets/image/cart/benz.png" alt="">
+                            </div>
+                            <a href="#">جیپ رانگلر مدل موپار</a>
+                        </div>
+                        <div class="item-price">
+                            <div class="price">183.500.000</div>
+                            <div class="currency">تومان</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="coupon">
+                    <input type="text" placeholder="کد تخفیف">
+                    <button class="button" type="submit"><i class="eva eva-plus-outline"></i></button>
+                </div>
+                <div class="order-total">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3">جمع کل سبد خرید</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="empty"></td>
+                                <td class="total-price">192.000.000</td>
+                                <td class="currency">تومان</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="bill"><a href="#">پرداخت</a></div>
+            </div>
+        </section>
+    </main>
+    <script src="/Assets/scripts/jquery-3.5.1.min.js"></script>
+    <script src="/Assets/scripts/persian-date.min.js"></script>
+    <script src="/Assets/scripts/persian-datepicker.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".password-field>i").click(function () {
+                $(this).toggleClass("eva-eye-outline");
+                var input = $(".password-field").find("input");
+                if (input.attr("type") == "password") {
+                    input.attr("type", "text");
+                } else {
+                    input.attr("type", "password");
+                }
+            });
+            $("#checktoggle").click(function () {
+                $(".password-field").fadeToggle().css({ "display": "inline-flex" });
+            });
+            $(".field").click(function () {
+                $(this).addClass("active-field").siblings().removeClass("active-field");
+            });
+            $('.inline-datepicker').persianDatepicker({
+                inline: true,
+                altField: '#input-date',
+                altFormat: 'L',
+                maxDate: new persianDate().add('day', 10).valueOf(),
+                minDate: new persianDate().subtract('day', 0).valueOf(),
+                monthPicker:{
+                    enabled:false
+                },
+                yearPicker:{
+                    enabled:false
+                },
+                navigator:{
+                    text:{
+                        btnNextText:'>',
+                        btnPrevText:'<'
+                    }
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>

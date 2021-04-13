@@ -8,6 +8,8 @@
         text-align: center;
         width: 2em;
         height: 2em;
+        background-color: transparent;
+        color: var(--text-color);
     }
     input::-webkit-outer-spin-button,
     input::-webkit-inner-spin-button {
@@ -35,5 +37,8 @@
             @extend %btn-shadow-hover;
             cursor: pointer;
         }
+    }
+    button:first-child{
+        background-color: $primary-color;
     }
 }

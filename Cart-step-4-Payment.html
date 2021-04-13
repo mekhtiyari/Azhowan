@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Payment</title>
+    <link rel="stylesheet" href="/Assets/css/main.css">
+    <link rel="stylesheet" href="/Assets/fonticon/RemixIcon-master/fonts/remixicon.css">
+    <link rel="stylesheet" href="/Assets/fonticon/eva-icons/style/eva-icons.css">
+</head>
+
+<body>
+    <main class="cart-container">
+        <section class="cart-form">
+            <div class="cart-nav">
+                <div><img src="/assets/image/logo/small-logo.png" alt=""></div>
+                <i class="eva eva-arrow-ios-back-outline"></i>
+                <span>سبد خرید</span>
+            </div>
+            <div class="guidline-container">
+                <ul class="titles">
+                    <li>
+                        <div class="guidline-title">سبد خرید</div>
+                    </li>
+                    <li class="active-title">
+                        <div class="guidline-title">تسویه حساب</div>
+                    </li>
+                    <li>
+                        <div class="guidline-title">تشکر</div>
+                    </li>
+                </ul>
+                <ul class="balls">
+                    <li class="passed-session"></li>
+                    <li class="active-session">
+                    <li></li>
+                </ul>
+            </div>
+            <form>
+                <div class="checkout-container">
+                    <div class="checkout-header">
+                        <div class="headline passed">
+                            <div class="step">1</div>اطلاعات مشتری
+                        </div>
+                        <div class="headline passed">
+                            <div class="step">2</div>اطلاعات حمل و نقل
+                        </div>
+                        <div class="headline active">
+                            <div class="step">3</div>اطلاعات پرداخت
+                        </div>
+                    </div>
+                    <div class="pay-method">
+                        <h3>روش پرداخت</h3>
+                        <div class="methods-container">
+                            <div class="method">
+                                <label for="direct-payment">
+                                    <input type="radio" id="direct-payment" name="payment-method" value="direct">
+                                    <div class="circle"></div>
+                                    انتقال مستقیم بانکی
+                                    <p>آنلاین با تمامی کارت های بانکی</p>
+                                </label>
+                            </div>
+                            <div class="method">
+                                <label for="undirect-payment">
+                                    <input type="radio" id="undirect-payment" name="payment-method" value="undirect">
+                                    <div class="circle"></div>
+                                    پرداخت هنگام دریافت
+                                    <p>هزینه به مامور پست تحویل می شود</p>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="icons">
+                            <i class="eva eva-shield-outline"></i>
+                            <i class="eva eva-credit-card-outline"></i>
+                            <p>پرداخت <span>امن</span> با <span> همه </span>کارت های بانکی</p></div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="cart-aside">
+            <div class="cart-summary">
+                <h4>خلاصه سفرش</h4>
+                <div class="cart-items">
+                    <div class="item">
+                        <div class="item-info">
+                            <div class="img-box">
+                                <img src="/Assets/image/cart/mustang.png" alt="">
+                            </div>
+                            <a href="#">جیپ رانگلر مدل موپار</a>
+                        </div>
+                        <div class="item-price">
+                            <div class="price">183.500.000</div>
+                            <div class="currency">تومان</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-info">
+                            <div class="img-box">
+                                <img src="/Assets/image/cart/jeep.png" alt="">
+                            </div>
+                            <a href="#">جیپ رانگلر مدل موپار</a>
+                        </div>
+                        <div class="item-price">
+                            <div class="price">183.500.000</div>
+                            <div class="currency">تومان</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-info">
+                            <div class="img-box">
+                                <img src="/Assets/image/cart/benz.png" alt="">
+                            </div>
+                            <a href="#">جیپ رانگلر مدل موپار</a>
+                        </div>
+                        <div class="item-price">
+                            <div class="price">183.500.000</div>
+                            <div class="currency">تومان</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="coupon">
+                    <input type="text" placeholder="کد تخفیف">
+                    <button class="button" type="submit"><i class="eva eva-plus-outline"></i></button>
+                </div>
+                <div class="order-total">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3">جمع کل سبد خرید</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="empty"></td>
+                                <td class="total-price">192.000.000</td>
+                                <td class="currency">تومان</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="bill"><a href="#">پرداخت</a></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

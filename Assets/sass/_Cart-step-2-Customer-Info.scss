@@ -1,0 +1,175 @@
+.cart-container {
+    .cart-form {
+        .checkout-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .checkout-header {
+                width: 100%;
+                display: flex;
+                border-bottom: 1px solid $tertiary-color;
+                padding-bottom: 2em;
+                .headline {
+                    position: relative;
+                    display: inline-flex;
+                    align-items: center;
+                    flex: 1;
+                    font-weight: bold;
+                    color: $tertiary-color;
+                    .step {
+                        @include center;
+                        padding-top: 0.2em;
+                        font-size: 1.5em;
+                        width: 1.58em;
+                        height: 1.58em;
+                        background-color: $tertiary-color;
+                        color: #fff;
+                        border-radius: 50%;
+                        margin-left: 0.67em;
+                    }
+                }
+                .active {
+                    color: $primary-color;
+                    &::after {
+                        content: "";
+                        width: 100%;
+                        height: 3px;
+                        background-color: $primary-color;
+                        position: absolute;
+                        bottom: -2.15em;
+                    }
+                    .step {
+                        background-color: $primary-color;
+                    }
+                }
+                .passed {
+                    color: $secondary-color;
+                    &::after {
+                        content: "";
+                        width: 100%;
+                        height: 3px;
+                        background-color: $secondary-color;
+                        position: absolute;
+                        bottom: -2.15em;
+                    }
+                    .step {
+                        background-color: $secondary-color;
+                    }
+                }
+            }
+            .fields {
+                padding-top: 4em;
+                display: inline-flex;
+                flex-wrap: wrap;
+                .field {
+                    display: inline-flex;
+                    width: 33%;
+                    border-bottom: 1px solid rgba($color: $tertiary-color, $alpha: 0.6);
+                    margin: 1em 0em 1em 3em;
+                    padding: 0.5em 0;
+                    label {
+                        margin-left: 1em;
+                        font-weight: bold;
+                        color: rgba($color: $tertiary-color, $alpha: 1);
+                    }
+                    input {
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                        outline: none;
+                        // background-color: transparent;
+                    }
+                }
+                #address {
+                    width: calc(66% + 3em);
+                }
+                .active-field{
+                    border-bottom: 1px solid rgba($color: $primary-color, $alpha: 0.6);
+                    label{
+                        color: $primary-color;
+                    }
+                }
+                .create-account {
+                    position: relative;
+                    width: calc(66% + 4.9em);
+                    left: 1.9em;
+                    height: 11em;
+                    margin-top: 1.9em;
+                    border-radius: 1.5em 0 0 1.5em;
+                    background-color: rgba($color: $attention-color, $alpha: 0.16);
+                    padding: 1.9em 1.92em 1.9em 2.62em;
+                    p {
+                        font-size: 13px;
+                        font-weight: bold;
+                        color: var(--text-color);
+                    }
+                    .password-toggle {
+                        position: relative;
+                        input[type="checkbox"] {
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            z-index: -2;
+                            border: none;
+                            outline: none;
+                        }
+                        label {
+                            width: 4.875em;
+                            height: 1.625em;
+                            border-radius: .75em;
+                            position: absolute;
+                            top: -1.5em;
+                            left: 0;
+                            background: rgba($tertiary-color, 0.32);
+                            transition: background 0.2s ease-in-out;
+                            cursor: pointer;
+                        }
+                        label:after {
+                            content: "";
+                            width: 2.25em;
+                            height: 2.25em;
+                            background: #fff;
+                            border-radius: 50%;
+                            position: absolute;
+                            top: -.3em;
+                            left: 3em;
+                            @extend %general-shadow;
+                            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                        }
+                        input[type="checkbox"]:checked + label:after {
+                            left: -.1em;
+                            background-color: $primary-color;
+                        }
+                        input[type="checkbox"]:checked + label {
+                            background: rgba($primary-color, 0.32);
+                        }
+                    }
+                    .password-field{
+                        display: none;
+                        width: 100%;
+                        margin: 2em 0em 1em 3em;
+                        padding: 0.5em 0;
+                        border-bottom: 1px solid rgba($color: $tertiary-color, $alpha: 0.6);
+                        label {
+                            margin-left: 1em;
+                            font-weight: bold;
+                            color: rgba($color: $tertiary-color, $alpha: 1);
+                        }
+                        input {
+                            width: 90%;
+                            border: none;
+                            outline: none;
+                            background: transparent;
+                        }
+                        i{
+                            font-size: 1.7em;
+                            color: $tertiary-color;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

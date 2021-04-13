@@ -436,3 +436,61 @@
         color: #fff;
     } 
 }
+%cart-update-btn{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: $secondary-color;
+    @include center;
+    @extend %general-shadow;
+    i{
+        font-size: 1.5em;
+        color: #fff;
+        transition: all 1s ease-in-out;
+        transform: rotate(0deg);
+    }
+    &:hover{
+        i{
+            transform-origin: center;
+            transform: rotate(360deg);
+        }
+    }
+}
+%cart-exit-btn{
+    width: 3.37em;
+    height: 2.37em;
+    background-color: $quaternary-color;
+    border-radius: 0 1.5em 1.5em 0;
+    @include center;
+    @extend %general-shadow;
+    position: relative;
+    i{
+        position: relative;
+        left: -.1em;
+        font-size: 1.5em;
+        color: #fff;
+        transition: all .3s ease-in-out;
+    }
+    &:hover{
+        i{
+            left: 0;
+        }
+    }
+}
+%remove-btn{
+    a{
+        width: 2.12em;
+        height: 2.12em;
+        border-radius: 50%;
+        background-color: $tertiary-color;
+        color: #fff;
+        @include center;
+        i{
+            font-size: 1.5em;
+        }
+        &:hover{
+            background-color: $close-color;
+            @extend %btn-shadow-hover-4;
+        }
+    }
+}
