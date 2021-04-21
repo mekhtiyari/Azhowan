@@ -217,7 +217,7 @@ button, ::placeholder, input, select, textarea {
   font-size: 29px;
 }
 
-.all-comment .wrapper .comment-header-container .comment-header-style-1 .close-btn, .comment-header-style-2 .close-btn {
+.all-comment .wrapper .comment-header-container .comment-header-style-1 .close-btn, .comment-header-style-2 .close-btn, .single-product-design3 .panels .close-btn {
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -227,19 +227,20 @@ button, ::placeholder, input, select, textarea {
   left: 30px;
   top: -17px;
   transition: all .2s ease-in-out;
+  cursor: pointer;
 }
 
-.all-comment .wrapper .comment-header-container .comment-header-style-1 .close-btn a, .comment-header-style-2 .close-btn a {
+.all-comment .wrapper .comment-header-container .comment-header-style-1 .close-btn a, .comment-header-style-2 .close-btn a, .single-product-design3 .panels .close-btn a, .all-comment .wrapper .comment-header-container .comment-header-style-1 .close-btn i, .comment-header-style-2 .close-btn i, .single-product-design3 .panels .close-btn i {
   color: #fff;
   font-size: 24px;
 }
 
-.all-comment .wrapper .comment-header-container .comment-header-style-1 .close-btn:hover, .comment-header-style-2 .close-btn:hover {
+.all-comment .wrapper .comment-header-container .comment-header-style-1 .close-btn:hover, .comment-header-style-2 .close-btn:hover, .single-product-design3 .panels .close-btn:hover {
   background-color: rgba(255, 32, 32, 0.8);
   box-shadow: 0px 3px 15px 2px #ff20205c;
 }
 
-.all-comment .wrapper .comment-summary .new-comment-box .add-comment-btn, .panels .comments .comment-statistics .new-comment-box .add-comment-btn {
+.all-comment .wrapper .comment-summary .new-comment-box .add-comment-btn, .panels .comments .comment-statistics .new-comment-box .add-comment-btn, .single-product-design3 .panels .comments .comment-statistics .new-comment-box .add-comment-btn {
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -251,7 +252,7 @@ button, ::placeholder, input, select, textarea {
   padding: 5px;
 }
 
-.all-comment .wrapper .comment-summary .new-comment-box .add-comment-btn i, .panels .comments .comment-statistics .new-comment-box .add-comment-btn i {
+.all-comment .wrapper .comment-summary .new-comment-box .add-comment-btn i, .panels .comments .comment-statistics .new-comment-box .add-comment-btn i, .single-product-design3 .panels .comments .comment-statistics .new-comment-box .add-comment-btn i {
   font-size: 24px;
   color: #fff;
   transform: rotate(0deg);
@@ -262,7 +263,7 @@ button, ::placeholder, input, select, textarea {
   transform: rotate(90deg);
 }
 
-.comment-header-style-2 .subject .add-btn, .shop .wrapper .container .prdoducts-section .products .buttons .add-btn, .single-product .product-summary .product-info .product-short-detail .price-box .add-btn, .cart-container .cart-aside .cart-summary .coupon .button, .cart-container .cart-aside .cross-sells .items ul li .add-btn, .checkout-container .shipping-info-container .shipping-info .new-address .add-new-adress-btn {
+.comment-header-style-2 .subject .add-btn, .shop .wrapper .container .prdoducts-section .products .buttons .add-btn, .single-product .product-summary .product-info .product-short-detail .price-box .add-btn, .cart-container .cart-aside .cart-summary .coupon .button, .cart-container .cart-aside .cross-sells .items ul li .add-btn, .checkout-container .shipping-info-container .shipping-info .new-address .add-new-adress-btn, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .add-btn, .single-product-design3 .product .product-info .price-box .add-btn, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .add-btn {
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -271,18 +272,18 @@ button, ::placeholder, input, select, textarea {
   padding: 5px;
 }
 
-.comment-header-style-2 .subject .add-btn i, .shop .wrapper .container .prdoducts-section .products .buttons .add-btn i, .single-product .product-summary .product-info .product-short-detail .price-box .add-btn i, .cart-container .cart-aside .cart-summary .coupon .button i, .cart-container .cart-aside .cross-sells .items ul li .add-btn i, .checkout-container .shipping-info-container .shipping-info .new-address .add-new-adress-btn i {
+.comment-header-style-2 .subject .add-btn i, .shop .wrapper .container .prdoducts-section .products .buttons .add-btn i, .single-product .product-summary .product-info .product-short-detail .price-box .add-btn i, .cart-container .cart-aside .cart-summary .coupon .button i, .cart-container .cart-aside .cross-sells .items ul li .add-btn i, .checkout-container .shipping-info-container .shipping-info .new-address .add-new-adress-btn i, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .add-btn i, .single-product-design3 .product .product-info .price-box .add-btn i, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .add-btn i {
   font-size: 24px;
   color: #fff;
   transform: rotate(0deg);
   transition: all .5s ease-in-out;
 }
 
-.comment-header-style-2 .subject .add-btn:hover i, .shop .wrapper .container .prdoducts-section .products .buttons .add-btn:hover i, .single-product .product-summary .product-info .product-short-detail .price-box .add-btn:hover i, .cart-container .cart-aside .cart-summary .coupon .button:hover i, .cart-container .cart-aside .cross-sells .items ul li .add-btn:hover i, .checkout-container .shipping-info-container .shipping-info .new-address .add-new-adress-btn:hover i {
+.comment-header-style-2 .subject .add-btn:hover i, .shop .wrapper .container .prdoducts-section .products .buttons .add-btn:hover i, .single-product .product-summary .product-info .product-short-detail .price-box .add-btn:hover i, .cart-container .cart-aside .cart-summary .coupon .button:hover i, .cart-container .cart-aside .cross-sells .items ul li .add-btn:hover i, .checkout-container .shipping-info-container .shipping-info .new-address .add-new-adress-btn:hover i, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .add-btn:hover i, .single-product-design3 .product .product-info .price-box .add-btn:hover i, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .add-btn:hover i {
   transform: rotate(90deg);
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like a, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike a, .all-comment .wrapper .grid .grid-item .part-one .btns .replay a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay a {
+.all-comment .wrapper .grid .grid-item .part-one .btns .like a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like a, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like a, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike a, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .dislike a, .all-comment .wrapper .grid .grid-item .part-one .btns .replay a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay a, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay a {
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -292,64 +293,64 @@ button, ::placeholder, input, select, textarea {
   position: relative;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like a i, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike a i, .all-comment .wrapper .grid .grid-item .part-one .btns .replay a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay a i {
+.all-comment .wrapper .grid .grid-item .part-one .btns .like a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like a i, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like a i, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike a i, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .dislike a i, .all-comment .wrapper .grid .grid-item .part-one .btns .replay a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay a i, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay a i {
   position: absolute;
   font-size: 22px;
   transition: .2s ease-in-out;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like a i:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like a i:first-child, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike a i:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike a i:first-child, .all-comment .wrapper .grid .grid-item .part-one .btns .replay a i:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay a i:first-child {
+.all-comment .wrapper .grid .grid-item .part-one .btns .like a i:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like a i:first-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like a i:first-child, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike a i:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike a i:first-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .dislike a i:first-child, .all-comment .wrapper .grid .grid-item .part-one .btns .replay a i:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay a i:first-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay a i:first-child {
   opacity: 1;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like a i:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like a i:last-child, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike a i:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike a i:last-child, .all-comment .wrapper .grid .grid-item .part-one .btns .replay a i:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay a i:last-child {
+.all-comment .wrapper .grid .grid-item .part-one .btns .like a i:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like a i:last-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like a i:last-child, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike a i:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike a i:last-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .dislike a i:last-child, .all-comment .wrapper .grid .grid-item .part-one .btns .replay a i:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay a i:last-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay a i:last-child {
   opacity: 0;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like i, .all-comment .wrapper .grid .grid-item .part-one .btns .like p, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like p {
+.all-comment .wrapper .grid .grid-item .part-one .btns .like i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like i, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like i, .all-comment .wrapper .grid .grid-item .part-one .btns .like p, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like p, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like p {
   color: #0dc979;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like span, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like span {
+.all-comment .wrapper .grid .grid-item .part-one .btns .like span, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like span, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like span {
   position: absolute;
   transition: all .2s ease-out;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like span:nth-child(1), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like span:nth-child(1) {
+.all-comment .wrapper .grid .grid-item .part-one .btns .like span:nth-child(1), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like span:nth-child(1), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like span:nth-child(1) {
   top: 5px;
   left: 5px;
   transform: rotate(-30deg);
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like span:nth-child(2), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like span:nth-child(2) {
+.all-comment .wrapper .grid .grid-item .part-one .btns .like span:nth-child(2), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like span:nth-child(2), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like span:nth-child(2) {
   top: 5px;
   right: 5px;
   transform: rotate(30deg);
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like span:nth-child(3), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like span:nth-child(3) {
+.all-comment .wrapper .grid .grid-item .part-one .btns .like span:nth-child(3), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like span:nth-child(3), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like span:nth-child(3) {
   bottom: 0px;
   right: 15px;
   transform: rotate(137deg);
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .dislike i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike i, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike p, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike p {
+.all-comment .wrapper .grid .grid-item .part-one .btns .dislike i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike i, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .dislike i, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike p, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike p, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .dislike p {
   color: #ff2020;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .replay i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay i {
+.all-comment .wrapper .grid .grid-item .part-one .btns .replay i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay i, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay i {
   color: #2059f6;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .replay:hover a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay:hover a {
+.all-comment .wrapper .grid .grid-item .part-one .btns .replay:hover a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay:hover a, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay:hover a {
   background-color: #2059f6;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .replay:hover a i:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay:hover a i:first-child {
+.all-comment .wrapper .grid .grid-item .part-one .btns .replay:hover a i:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay:hover a i:first-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay:hover a i:first-child {
   opacity: 0;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .replay:hover a i:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay:hover a i:last-child {
+.all-comment .wrapper .grid .grid-item .part-one .btns .replay:hover a i:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay:hover a i:last-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay:hover a i:last-child {
   opacity: 1;
   color: #fff;
 }
@@ -377,7 +378,7 @@ button, ::placeholder, input, select, textarea {
   background-color: #2059f6;
 }
 
-.panels .comments .users-comments .title div a, .account-page .all-order .all-order-container .order-item .order-detail .orders .more-btn a {
+.panels .comments .users-comments .title div a, .account-page .all-order .all-order-container .order-item .order-detail .orders .more-btn a, .single-product-design3 .panels .comments .users-comments .title div a {
   width: 2.2em;
   height: 2.2em;
   background-color: var(--element-color);
@@ -389,7 +390,7 @@ button, ::placeholder, input, select, textarea {
   align-items: center;
 }
 
-.panels .comments .users-comments .title div a i, .account-page .all-order .all-order-container .order-item .order-detail .orders .more-btn a i {
+.panels .comments .users-comments .title div a i, .account-page .all-order .all-order-container .order-item .order-detail .orders .more-btn a i, .single-product-design3 .panels .comments .users-comments .title div a i {
   position: absolute;
   font-size: 1.5em;
   transition: all .3s ease-in;
@@ -695,11 +696,11 @@ button, ::placeholder, input, select, textarea {
   background-color: #ff2020;
 }
 
-.design-one .team-quotation-slide div:nth-child(1), .design-two .person div:nth-child(1), .design-three .person-quotation-slide, .design-five .team-contact-slide, .design-five .modal, .design-six .according-testimonial-slide div:nth-child(1), .After-Before-V .gutter::before, .single-product .product-summary .sliders .gallery-slider-box .gallery-slide, .single-product .product-summary .sliders .moto-slider-box .moto-slide, .single-product .product-summary .product-info .product-brand-and-category .barnd .brand-logo-box, .single-product .product-detail .product-tab, .panels .floating-panel, .panels .accessories .accessories-cart {
+.design-one .team-quotation-slide div:nth-child(1), .design-two .person div:nth-child(1), .design-three .person-quotation-slide, .design-five .team-contact-slide, .design-five .modal, .design-six .according-testimonial-slide div:nth-child(1), .After-Before-V .gutter::before, .single-product .product-summary .sliders .gallery-slider-box .gallery-slide, .single-product .product-summary .sliders .moto-slider-box .moto-slide, .single-product .product-summary .product-info .product-brand-and-category .barnd .brand-logo-box, .single-product .product-detail .product-tab, .panels .floating-panel, .panels .accessories .accessories-cart, .single-product-design2 .accessories, .single-product-design2 .accessories .accessories-cart, .single-product-design3 .panels .floating-panel {
   box-shadow: 0px 3px 25px 2px rgba(0, 0, 0, 0.26);
 }
 
-.cart-container .cart-aside .update-cart-container .cart-update-btn, .cart-container .cart-aside .update-cart-container .cart-exit-btn, .account-page .aside .profile-conatiner .profile::after, .account-page .aside .profile-conatiner .profile .photo, .account-page .aside .profile-menu ul li, .account-page .aside .profile-menu ul li::after, .account-page .all-order .all-order-container .order-item, .account-page .all-order .all-order-container .order-item .order-detail .orders ul li, .project-timeline .timeline-container ul li .data-container .content, .project-video .container .video-comment .person-info .person-img, .project-colleagues .project-colleagues-slider-box .project-colleagues-slide, .forms .login .form-section .forms-container .login-form-container .login-form-box, .forms .sign-up .form-section .forms-container .sign-up-form-container .sign-up-form-box, .forms .forget-pass .form-section .forms-container .forget-pass-form-container .login-form-box, .cart-container .cart-form .guidline-container, .cart-container .cart-form .items-container, .cart-container .cart-form .checkout-container, .cart-container .cart-form .thanks-conatiner, .cart-container .cart-form .items-container .cart-item .product-thumbnail, .cart-container .cart-form .checkout-container .cart-item .product-thumbnail, .cart-container .cart-form .thanks-conatiner .cart-item .product-thumbnail, .cart-container .cart-aside .img-box, .cart-container .cart-form .checkout-container .fields .create-account .password-toggle label:after, .checkout-container .shipping-info-container .shipping-info, .checkout-container .pay-method .methods-container .method {
+.cart-container .cart-aside .update-cart-container .cart-update-btn, .cart-container .cart-aside .update-cart-container .cart-exit-btn, .account-page .aside .profile-conatiner .profile::after, .account-page .aside .profile-conatiner .profile .photo, .account-page .aside .profile-menu ul li, .account-page .aside .profile-menu ul li::after, .account-page .all-order .all-order-container .order-item, .account-page .all-order .all-order-container .order-item .order-detail .orders ul li, .project-timeline .timeline-container ul li .data-container .content, .project-video .container .video-comment .person-info .person-img, .project-colleagues .project-colleagues-slider-box .project-colleagues-slide, .forms .login .form-section .forms-container .login-form-container .login-form-box, .forms .sign-up .form-section .forms-container .sign-up-form-container .sign-up-form-box, .forms .forget-pass .form-section .forms-container .forget-pass-form-container .login-form-box, .cart-container .cart-form .guidline-container, .cart-container .cart-form .items-container, .cart-container .cart-form .checkout-container, .cart-container .cart-form .thanks-conatiner, .cart-container .cart-form .items-container .cart-item .product-thumbnail, .cart-container .cart-form .checkout-container .cart-item .product-thumbnail, .cart-container .cart-form .thanks-conatiner .cart-item .product-thumbnail, .cart-container .cart-aside .img-box, .cart-container .cart-form .checkout-container .fields .create-account .password-toggle label:after, .checkout-container .shipping-info-container .shipping-info, .checkout-container .pay-method .methods-container .method, .single-product-design2 .product-summary .product-info .product-short-detail-container .description img, .single-product-design2 .product-summary .product-info .product-tools-container, .single-product-design2 .product-summary .gallery .gallery-top .swiper-slide, .single-product-design2 .product-summary .gallery .gallery-thumbs .swiper-slide, .single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container, .single-product-design3 .product .tabs .tab, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide, .single-product-design3 .cart {
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
 }
 
@@ -711,11 +712,11 @@ button, ::placeholder, input, select, textarea {
   box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.36);
 }
 
-.comment-header-style-2 .subject .add-btn:hover, .shop .wrapper .container .prdoducts-section .products .buttons .add-btn:hover, .single-product .product-summary .product-info .product-short-detail .price-box .add-btn:hover, .cart-container .cart-aside .cart-summary .coupon .button:hover, .cart-container .cart-aside .cross-sells .items ul li .add-btn:hover, .checkout-container .shipping-info-container .shipping-info .new-address .add-new-adress-btn:hover, .panels .accessories .accessories-cart .add-all-to-cart a:hover i {
+.comment-header-style-2 .subject .add-btn:hover, .shop .wrapper .container .prdoducts-section .products .buttons .add-btn:hover, .single-product .product-summary .product-info .product-short-detail .price-box .add-btn:hover, .cart-container .cart-aside .cart-summary .coupon .button:hover, .cart-container .cart-aside .cross-sells .items ul li .add-btn:hover, .checkout-container .shipping-info-container .shipping-info .new-address .add-new-adress-btn:hover, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .add-btn:hover, .single-product-design3 .product .product-info .price-box .add-btn:hover, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .add-btn:hover, .panels .accessories .accessories-cart .add-all-to-cart a:hover i, .single-product-design2 .accessories .accessories-cart .add-all-to-cart a:hover i {
   box-shadow: 0px 3px 10px 2px rgba(13, 201, 121, 0.5);
 }
 
-.header-1 .dashboard .icons .cart:hover, .header-2 .dashboard .icons .cart:hover, .header-3 .dashboard .icons .cart:hover, .all-comment .wrapper .grid .grid-item .part-one .btns .replay:hover a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay:hover a, .single-product .product-summary .product-info .product-short-detail .price-box .spinner button:hover, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner button:hover, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner button:hover, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner button:hover, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner button:hover, .lb-data .lb-close, .price-plan-design-2 .show-more:hover, .header-1 .dashboard .DarkMode .rec, .header-3 .dashboard .DarkMode .rec, .blog-slider-design-2 .blog .swiper-button-next:hover, .blog-slider-design-2 .blog .swiper-button-prev:hover, .account-page .all-order .all-order-container .order-item .order-btns a:nth-child(2):hover, .account-page .all-order .all-order-container .order-item .order-detail .order-status a:hover, .portfolio-header .header .project-summary .collapse-btn:hover, .forms .sign-up .form-section .forms-container .sign-up-form-container .sign-up-form-box .sign-up-rules .form-btn:hover a, .blog-archive .blog-header .sort-btn .slide, .cart-container .cart-form .guidline-container .balls .active-session::after, .cart-container .cart-aside .cart-summary .coupon .button:hover, .cart-container .cart-aside .cart-summary .bill:hover a, .cart-container .cart-aside .cart-summary .next-step:hover a, .checkout-container .shipping-info-container .shipping-info .new-address .add-new-adress-btn:hover, .thanks-conatiner .receipt .btn-container .btn:last-child a:hover {
+.header-1 .dashboard .icons .cart:hover, .header-2 .dashboard .icons .cart:hover, .header-3 .dashboard .icons .cart:hover, .all-comment .wrapper .grid .grid-item .part-one .btns .replay:hover a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay:hover a, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay:hover a, .single-product .product-summary .product-info .product-short-detail .price-box .spinner button:hover, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner button:hover, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner button:hover, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner button:hover, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner button:hover, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .spinner button:hover, .single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner .spinner button:hover, .single-product-design3 .product .product-info .price-box .spinner button:hover, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .spinner button:hover, .lb-data .lb-close, .price-plan-design-2 .show-more:hover, .header-1 .dashboard .DarkMode .rec, .header-3 .dashboard .DarkMode .rec, .blog-slider-design-2 .blog .swiper-button-next:hover, .blog-slider-design-2 .blog .swiper-button-prev:hover, .account-page .all-order .all-order-container .order-item .order-btns a:nth-child(2):hover, .account-page .all-order .all-order-container .order-item .order-detail .order-status a:hover, .portfolio-header .header .project-summary .collapse-btn:hover, .forms .sign-up .form-section .forms-container .sign-up-form-container .sign-up-form-box .sign-up-rules .form-btn:hover a, .blog-archive .blog-header .sort-btn .slide, .cart-container .cart-form .guidline-container .balls .active-session::after, .cart-container .cart-aside .cart-summary .coupon .button:hover, .cart-container .cart-aside .cart-summary .bill:hover a, .cart-container .cart-aside .cart-summary .next-step:hover a, .checkout-container .shipping-info-container .shipping-info .new-address .add-new-adress-btn:hover, .thanks-conatiner .receipt .btn-container .btn:last-child a:hover, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .taste .taste-slider-box .taste-slide:hover, .single-product-design3 .product .tabs .tab:hover, .single-product-design3 .product .product-info .type ul li input:checked ~ p, .single-product-design3 .cart .view-cart-btn:hover {
   box-shadow: 0 0 15px 0 var(--primary-color);
 }
 
@@ -731,7 +732,7 @@ button, ::placeholder, input, select, textarea {
   box-shadow: 0 0 15px 0 var(--quaternary-color);
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like a, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike a, .all-comment .wrapper .grid .grid-item .part-one .btns .replay a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay a {
+.all-comment .wrapper .grid .grid-item .part-one .btns .like a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like a, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like a, .all-comment .wrapper .grid .grid-item .part-one .btns .dislike a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike a, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .dislike a, .all-comment .wrapper .grid .grid-item .part-one .btns .replay a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay a, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay a {
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
 }
 
@@ -781,11 +782,11 @@ button, ::placeholder, input, select, textarea {
   opacity: 1;
 }
 
-.single-product .product-summary .product-info .product-short-detail .price-box .spinner, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner {
+.single-product .product-summary .product-info .product-short-detail .price-box .spinner, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .spinner, .single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner .spinner, .single-product-design3 .product .product-info .price-box .spinner, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .spinner {
   display: flex;
 }
 
-.single-product .product-summary .product-info .product-short-detail .price-box .spinner input, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner input, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner input, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner input, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner input {
+.single-product .product-summary .product-info .product-short-detail .price-box .spinner input, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner input, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner input, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner input, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner input, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .spinner input, .single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner .spinner input, .single-product-design3 .product .product-info .price-box .spinner input, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .spinner input {
   font-size: 16px;
   border: 1px solid rgba(129, 129, 129, 0.3);
   outline: none;
@@ -797,20 +798,24 @@ button, ::placeholder, input, select, textarea {
   color: var(--text-color);
 }
 
-.single-product .product-summary .product-info .product-short-detail .price-box .spinner input::-webkit-outer-spin-button, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner input::-webkit-outer-spin-button, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner input::-webkit-outer-spin-button, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner input::-webkit-outer-spin-button, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner input::-webkit-outer-spin-button,
+.single-product .product-summary .product-info .product-short-detail .price-box .spinner input::-webkit-outer-spin-button, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner input::-webkit-outer-spin-button, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner input::-webkit-outer-spin-button, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner input::-webkit-outer-spin-button, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner input::-webkit-outer-spin-button, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .spinner input::-webkit-outer-spin-button, .single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner .spinner input::-webkit-outer-spin-button, .single-product-design3 .product .product-info .price-box .spinner input::-webkit-outer-spin-button, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .spinner input::-webkit-outer-spin-button,
 .single-product .product-summary .product-info .product-short-detail .price-box .spinner input::-webkit-inner-spin-button,
 .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner input::-webkit-inner-spin-button,
 .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner input::-webkit-inner-spin-button,
 .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner input::-webkit-inner-spin-button,
-.cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner input::-webkit-inner-spin-button {
+.cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner input::-webkit-inner-spin-button,
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .spinner input::-webkit-inner-spin-button,
+.single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner .spinner input::-webkit-inner-spin-button,
+.single-product-design3 .product .product-info .price-box .spinner input::-webkit-inner-spin-button,
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .spinner input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
-.single-product .product-summary .product-info .product-short-detail .price-box .spinner input[type="number"], .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner input[type="number"], .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner input[type="number"], .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner input[type="number"], .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner input[type="number"] {
+.single-product .product-summary .product-info .product-short-detail .price-box .spinner input[type="number"], .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner input[type="number"], .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner input[type="number"], .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner input[type="number"], .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner input[type="number"], .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .spinner input[type="number"], .single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner .spinner input[type="number"], .single-product-design3 .product .product-info .price-box .spinner input[type="number"], .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .spinner input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.single-product .product-summary .product-info .product-short-detail .price-box .spinner button, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner button, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner button, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner button, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner button {
+.single-product .product-summary .product-info .product-short-detail .price-box .spinner button, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner button, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner button, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner button, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner button, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .spinner button, .single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner .spinner button, .single-product-design3 .product .product-info .price-box .spinner button, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .spinner button {
   font-size: 16px;
   width: 2.125em;
   height: 2.125em;
@@ -826,16 +831,16 @@ button, ::placeholder, input, select, textarea {
   transition: all 0.3s ease-in-out;
 }
 
-.single-product .product-summary .product-info .product-short-detail .price-box .spinner button:hover, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner button:hover, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner button:hover, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner button:hover, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner button:hover {
+.single-product .product-summary .product-info .product-short-detail .price-box .spinner button:hover, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner button:hover, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner button:hover, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner button:hover, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner button:hover, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .spinner button:hover, .single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner .spinner button:hover, .single-product-design3 .product .product-info .price-box .spinner button:hover, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .spinner button:hover {
   background-color: #2059f6;
   cursor: pointer;
 }
 
-.single-product .product-summary .product-info .product-short-detail .price-box .spinner button:first-child, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner button:first-child, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner button:first-child, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner button:first-child, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner button:first-child {
+.single-product .product-summary .product-info .product-short-detail .price-box .spinner button:first-child, .panels .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner button:first-child, .cart-container .cart-form .items-container .cart-item .product-quantity-subtotal .quantity .spinner button:first-child, .cart-container .cart-form .checkout-container .cart-item .product-quantity-subtotal .quantity .spinner button:first-child, .cart-container .cart-form .thanks-conatiner .cart-item .product-quantity-subtotal .quantity .spinner button:first-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .spinner button:first-child, .single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner .spinner button:first-child, .single-product-design3 .product .product-info .price-box .spinner button:first-child, .single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .spinner button:first-child {
   background-color: #2059f6;
 }
 
-.panels .accessories .accessories-slider-box .accessories-slide label, .panels .accessories .accessories-cart .accessories-cart-list .item div label {
+.panels .accessories .accessories-slider-box .accessories-slide label, .panels .accessories .accessories-cart .accessories-cart-list .item div label, .single-product-design2 .accessories .accessories-slider-box .accessories-slide label, .single-product-design2 .accessories .accessories-cart .accessories-cart-list .item div label {
   width: 100%;
   padding: 10px;
   display: flex;
@@ -844,7 +849,7 @@ button, ::placeholder, input, select, textarea {
   cursor: pointer;
 }
 
-.panels .accessories .accessories-slider-box .accessories-slide label .TickMark, .panels .accessories .accessories-cart .accessories-cart-list .item div label .TickMark {
+.panels .accessories .accessories-slider-box .accessories-slide label .TickMark, .panels .accessories .accessories-cart .accessories-cart-list .item div label .TickMark, .single-product-design2 .accessories .accessories-slider-box .accessories-slide label .TickMark, .single-product-design2 .accessories .accessories-cart .accessories-cart-list .item div label .TickMark {
   position: relative;
   width: 1.3em;
   height: 1.3em;
@@ -854,7 +859,7 @@ button, ::placeholder, input, select, textarea {
   color: #2059f6;
 }
 
-.panels .accessories .accessories-slider-box .accessories-slide label .TickMark i, .panels .accessories .accessories-cart .accessories-cart-list .item div label .TickMark i {
+.panels .accessories .accessories-slider-box .accessories-slide label .TickMark i, .panels .accessories .accessories-cart .accessories-cart-list .item div label .TickMark i, .single-product-design2 .accessories .accessories-slider-box .accessories-slide label .TickMark i, .single-product-design2 .accessories .accessories-cart .accessories-cart-list .item div label .TickMark i {
   position: absolute;
   bottom: -8px;
   left: -8px;
@@ -865,24 +870,24 @@ button, ::placeholder, input, select, textarea {
   transition: all 0.3s ease-in;
 }
 
-.panels .accessories .accessories-slider-box .accessories-slide .select-item .checkbox, .panels .accessories .accessories-cart .accessories-cart-list .item div .select-item .checkbox {
+.panels .accessories .accessories-slider-box .accessories-slide .select-item .checkbox, .panels .accessories .accessories-cart .accessories-cart-list .item div .select-item .checkbox, .single-product-design2 .accessories .accessories-slider-box .accessories-slide .select-item .checkbox, .single-product-design2 .accessories .accessories-cart .accessories-cart-list .item div .select-item .checkbox {
   opacity: 0;
   z-index: 1;
 }
 
-.panels .accessories .accessories-slider-box .accessories-slide .select-item .checkbox:checked ~ .TickMark i, .panels .accessories .accessories-cart .accessories-cart-list .item div .select-item .checkbox:checked ~ .TickMark i {
+.panels .accessories .accessories-slider-box .accessories-slide .select-item .checkbox:checked ~ .TickMark i, .panels .accessories .accessories-cart .accessories-cart-list .item div .select-item .checkbox:checked ~ .TickMark i, .single-product-design2 .accessories .accessories-slider-box .accessories-slide .select-item .checkbox:checked ~ .TickMark i, .single-product-design2 .accessories .accessories-cart .accessories-cart-list .item div .select-item .checkbox:checked ~ .TickMark i {
   opacity: 1;
   transform: scale(1);
 }
 
-.all-comment .wrapper .grid .grid-item, .panels .comments .users-comments .comments-slider-box .comment-item {
+.all-comment .wrapper .grid .grid-item, .panels .comments .users-comments .comments-slider-box .comment-item, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments, .single-product-design3 .panels .comments .users-comments .comments-slider-box .comment-item {
   display: block;
   width: 374px;
   height: max-content;
   margin-bottom: 50px;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one, .panels .comments .users-comments .comments-slider-box .comment-item .part-one {
+.all-comment .wrapper .grid .grid-item .part-one, .panels .comments .users-comments .comments-slider-box .comment-item .part-one, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one {
   box-shadow: 0px -3px 7px 0px rgba(0, 0, 0, 0.26);
   height: max-content;
   border-radius: 15px 15px 0 0;
@@ -891,7 +896,7 @@ button, ::placeholder, input, select, textarea {
   z-index: 1;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .person-info, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .person-info {
+.all-comment .wrapper .grid .grid-item .part-one .person-info, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .person-info, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .person-info {
   width: 100%;
   height: 75px;
   display: flex;
@@ -900,7 +905,7 @@ button, ::placeholder, input, select, textarea {
   justify-content: space-between;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .person-info img, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .person-info img {
+.all-comment .wrapper .grid .grid-item .part-one .person-info img, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .person-info img, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .person-info img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
@@ -908,33 +913,33 @@ button, ::placeholder, input, select, textarea {
   object-fit: cover;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .person-info p, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .person-info p {
+.all-comment .wrapper .grid .grid-item .part-one .person-info p, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .person-info p, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .person-info p {
   padding: 0 10px;
   flex-grow: 2;
   font-weight: bold;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .person-info ul li, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .person-info ul li {
+.all-comment .wrapper .grid .grid-item .part-one .person-info ul li, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .person-info ul li, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .person-info ul li {
   display: inline-block;
   padding-top: 5px;
   color: #ffd700;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .person-info ul li .off, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .person-info ul li .off {
+.all-comment .wrapper .grid .grid-item .part-one .person-info ul li .off, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .person-info ul li .off, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .person-info ul li .off {
   color: #818181;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .text, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .text {
+.all-comment .wrapper .grid .grid-item .part-one .text, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .text, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .text {
   width: 100%;
   height: max-content;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .text p, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .text p {
+.all-comment .wrapper .grid .grid-item .part-one .text p, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .text p, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .text p {
   padding: 30px 0;
   text-align: justify;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns {
+.all-comment .wrapper .grid .grid-item .part-one .btns, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns {
   width: 100%;
   height: 62px;
   display: flex;
@@ -942,74 +947,78 @@ button, ::placeholder, input, select, textarea {
   justify-content: space-between;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns div, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns div {
+.all-comment .wrapper .grid .grid-item .part-one .btns div, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns div, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns div {
   width: 36px;
   height: 62px;
   position: relative;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like,
+.all-comment .wrapper .grid .grid-item .part-one .btns .like, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like,
 .all-comment .wrapper .grid .grid-item .part-one .btns .dislike,
 .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike,
+.single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .dislike,
 .all-comment .wrapper .grid .grid-item .part-one .btns .replay,
-.panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay {
+.panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay,
+.single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .like p, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like p,
+.all-comment .wrapper .grid .grid-item .part-one .btns .like p, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .like p, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .like p,
 .all-comment .wrapper .grid .grid-item .part-one .btns .dislike p,
 .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .dislike p,
+.single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .dislike p,
 .all-comment .wrapper .grid .grid-item .part-one .btns .replay p,
-.panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay p {
+.panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .replay p,
+.single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .replay p {
   text-align: center;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a {
+.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .clicked a {
   box-shadow: none;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a i {
+.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a i, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .clicked a i {
   transition: 0.2s ease-in-out;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a i:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a i:first-child {
+.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a i:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a i:first-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .clicked a i:first-child {
   opacity: 0;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a i:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a i:last-child {
+.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a i:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a i:last-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .clicked a i:last-child {
   opacity: 1;
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a span:nth-child(1), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a span:nth-child(1) {
+.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a span:nth-child(1), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a span:nth-child(1), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .clicked a span:nth-child(1) {
   position: absolute;
   top: -5px;
   left: -1px;
   transform: rotate(-30deg);
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a span:nth-child(2), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a span:nth-child(2) {
+.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a span:nth-child(2), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a span:nth-child(2), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .clicked a span:nth-child(2) {
   position: absolute;
   top: -10px;
   right: 2px;
   transform: rotate(30deg);
 }
 
-.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a span:nth-child(3), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a span:nth-child(3) {
+.all-comment .wrapper .grid .grid-item .part-one .btns .clicked a span:nth-child(3), .panels .comments .users-comments .comments-slider-box .comment-item .part-one .btns .clicked a span:nth-child(3), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-one .btns .clicked a span:nth-child(3) {
   position: absolute;
   bottom: -12px;
   right: 6px;
   transform: rotate(137deg);
 }
 
-.all-comment .wrapper .grid .grid-item .part-two, .panels .comments .users-comments .comments-slider-box .comment-item .part-two {
+.all-comment .wrapper .grid .grid-item .part-two, .panels .comments .users-comments .comments-slider-box .comment-item .part-two, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two {
   position: relative;
   z-index: 2;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .chat-btn, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .chat-btn {
+.all-comment .wrapper .grid .grid-item .part-two .chat-btn, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .chat-btn, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .chat-btn {
   width: 40px;
   height: 35px;
   position: absolute;
@@ -1022,50 +1031,50 @@ button, ::placeholder, input, select, textarea {
   cursor: pointer;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .chat-btn i, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .chat-btn i {
+.all-comment .wrapper .grid .grid-item .part-two .chat-btn i, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .chat-btn i, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .chat-btn i {
   position: absolute;
   font-size: 24px;
   color: #2059f6;
   transition: all 0.3s ease-in-out;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .chat-btn i:nth-child(1), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .chat-btn i:nth-child(1) {
+.all-comment .wrapper .grid .grid-item .part-two .chat-btn i:nth-child(1), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .chat-btn i:nth-child(1), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .chat-btn i:nth-child(1) {
   opacity: 1;
   transform: scale(1);
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .chat-btn i:nth-child(2), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .chat-btn i:nth-child(2) {
+.all-comment .wrapper .grid .grid-item .part-two .chat-btn i:nth-child(2), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .chat-btn i:nth-child(2), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .chat-btn i:nth-child(2) {
   left: 4px;
   color: rgba(129, 129, 129, 0.5);
   opacity: 1;
   transform: scale(1);
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .chat-btn i:nth-child(3), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .chat-btn i:nth-child(3) {
+.all-comment .wrapper .grid .grid-item .part-two .chat-btn i:nth-child(3), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .chat-btn i:nth-child(3), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .chat-btn i:nth-child(3) {
   opacity: 0;
   transform: scale(0);
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .expand, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expand {
+.all-comment .wrapper .grid .grid-item .part-two .expand, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expand, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .expand {
   box-shadow: inset 0 5px 7px 0px rgba(0, 0, 0, 0.26);
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .expand i:nth-child(1), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expand i:nth-child(1) {
+.all-comment .wrapper .grid .grid-item .part-two .expand i:nth-child(1), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expand i:nth-child(1), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .expand i:nth-child(1) {
   opacity: 0;
   transform: scale(0);
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .expand i:nth-child(2), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expand i:nth-child(2) {
+.all-comment .wrapper .grid .grid-item .part-two .expand i:nth-child(2), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expand i:nth-child(2), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .expand i:nth-child(2) {
   opacity: 0;
   transform: scale(0);
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .expand i:nth-child(3), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expand i:nth-child(3) {
+.all-comment .wrapper .grid .grid-item .part-two .expand i:nth-child(3), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expand i:nth-child(3), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .expand i:nth-child(3) {
   opacity: 1;
   transform: scale(1);
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box {
   width: 100%;
   height: 0px;
   overflow: hidden;
@@ -1075,7 +1084,7 @@ button, ::placeholder, input, select, textarea {
   direction: ltr;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container {
   margin-top: 10px;
   width: 98%;
   height: 90%;
@@ -1084,16 +1093,16 @@ button, ::placeholder, input, select, textarea {
   overflow-y: scroll;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container::-webkit-scrollbar, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container::-webkit-scrollbar {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container::-webkit-scrollbar, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container::-webkit-scrollbar, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container::-webkit-scrollbar {
   width: 3px;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person {
   display: flex;
   flex-direction: column;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person div:first-child {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -1101,7 +1110,7 @@ button, ::placeholder, input, select, textarea {
   padding: 0px 10px;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child img, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child img {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child img, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child img, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person div:first-child img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
@@ -1109,56 +1118,56 @@ button, ::placeholder, input, select, textarea {
   object-fit: cover;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child b, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child b {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child b, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child b, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person div:first-child b {
   padding: 0 10px;
   flex-grow: 2;
   direction: rtl;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .like a, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .like a {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .like a, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .like a, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person div:first-child .like a {
   position: relative;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .like a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .like a i {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .like a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .like a i, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person div:first-child .like a i {
   font-size: 24px;
   color: #0dc979;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(1), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(1) {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(1), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(1), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(1) {
   position: absolute;
   top: -14px;
   left: -1px;
   transform: rotate(-30deg);
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(2), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(2) {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(2), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(2), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(2) {
   position: absolute;
   top: -14px;
   right: 2px;
   transform: rotate(30deg);
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(3), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(3) {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(3), .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(3), .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person div:first-child .like a span:nth-child(3) {
   position: absolute;
   bottom: -6px;
   right: 6px;
   transform: rotate(137deg);
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .dislike a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .dislike a i {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:first-child .dislike a i, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:first-child .dislike a i, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person div:first-child .dislike a i {
   font-size: 24px;
   color: #ff2020;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:last-child {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:last-child, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:last-child, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person div:last-child {
   padding: 10px;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:last-child p, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:last-child p {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container .person div:last-child p, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container .person div:last-child p, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container .person div:last-child p {
   direction: rtl;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container hr, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container hr {
+.all-comment .wrapper .grid .grid-item .part-two .comment-chat-box .container hr, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .comment-chat-box .container hr, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .comment-chat-box .container hr {
   width: 90%;
   display: block;
   height: 1px;
@@ -1166,12 +1175,12 @@ button, ::placeholder, input, select, textarea {
   border-top: 1px solid #2059f6;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .expanded, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expanded {
+.all-comment .wrapper .grid .grid-item .part-two .expanded, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expanded, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .expanded {
   height: 200px;
   box-shadow: none;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .expanded::after, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expanded::after {
+.all-comment .wrapper .grid .grid-item .part-two .expanded::after, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expanded::after, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .expanded::after {
   content: "";
   width: 30px;
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.18);
@@ -1180,7 +1189,7 @@ button, ::placeholder, input, select, textarea {
   left: 0;
 }
 
-.all-comment .wrapper .grid .grid-item .part-two .expanded::before, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expanded::before {
+.all-comment .wrapper .grid .grid-item .part-two .expanded::before, .panels .comments .users-comments .comments-slider-box .comment-item .part-two .expanded::before, .single-product-design2 .product-summary .product-info .product-short-detail-container .comments .part-two .expanded::before {
   content: "";
   width: 304px;
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.18);
@@ -10937,5 +10946,1280 @@ main {
 
 .cart-aside .cart-summary .cart-footer .btn:nth-child(3) a {
   background-color: #2059f6;
+}
+
+.single-product-design2 {
+  width: 100%;
+  padding: 1.9em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single-product-design2 .product-summary {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.single-product-design2 .product-summary .product-info {
+  flex: 1;
+  display: flex;
+  min-width: 36.25em;
+  height: 39.375em;
+  margin-left: 1em;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 2em 2em 0 0;
+  background-color: var(--element-color);
+  z-index: 2;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.16);
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container::after {
+  position: absolute;
+  content: "";
+  width: 0.4em;
+  height: 15.5em;
+  background-color: var(--element-color);
+  top: 6.56em;
+  left: -0.4em;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .tab {
+  outline: none;
+  padding: 1em 2em;
+  border-top: 1px solid rgba(129, 129, 129, 0.5);
+  border-radius: 2em 2em 0 0;
+  font-weight: bold;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .tab i {
+  transition: all 0.3s ease-in-out;
+  float: left;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .tab:first-child {
+  border: none;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 2em 0em;
+  max-width: 40vw;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content h4 {
+  color: #818181;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .taste {
+  display: flex;
+  align-items: baseline;
+  margin: 2em 0;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .taste .taste-slider-box {
+  max-width: 100%;
+  padding: 0 2em;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .taste .taste-slider-box .swiper-container {
+  padding-bottom: 1em;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .taste .taste-slider-box .swiper-slide {
+  box-shadow: none;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .taste .taste-slider-box .taste-slide {
+  width: max-content;
+  border-radius: 1.5em;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: var(--text-color) !important;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .taste .taste-slider-box .taste-slide a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  box-shadow: none;
+  border-radius: 1.5em;
+  border: 1px solid rgba(129, 129, 129, 0.5);
+  padding: 1em 2em;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-color);
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .taste .taste-slider-box .taste-slide:hover {
+  background-color: #2059f6;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .taste .taste-slider-box .taste-slide:hover a {
+  color: #fff !important;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .selected {
+  background-color: #2059f6;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .selected a {
+  color: #fff !important;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .type {
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .type ul {
+  font-size: 13px;
+  display: flex;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .type ul li {
+  padding: 0 2em;
+  margin: 0 0.5em;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .type ul li input {
+  display: none;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .type ul li label {
+  cursor: pointer;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .type ul li input:checked ~ p {
+  font-weight: bold;
+  color: #2059f6;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .storehouse {
+  margin: 2em 0;
+  font-size: 0.81em;
+  color: var(--text-color);
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .storehouse span {
+  color: #0dc979;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .storehouse span:first-child::after {
+  content: "عدد";
+  padding: 0 0.5em;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5em 0;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .title,
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .price,
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .unit {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box .price {
+  margin: 0 0.5em;
+  color: #2059f6;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .content .price-box ul li {
+  display: inline-flex;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .product {
+  height: max-content;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .description {
+  height: 25%;
+  overflow-y: scroll;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .description p {
+  text-align: justify;
+  padding: 1.5em;
+  line-height: 2;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .description img {
+  width: max-content;
+  margin: 0 auto;
+  border-radius: 1.5em;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .product-specifications {
+  height: 25%;
+  text-align: right;
+  overflow-y: auto;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .comments {
+  width: 100%;
+  height: 25%;
+  padding: 0em 2em 2em 0em;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .comments .swiper-wrapper {
+  padding-right: 0.5em;
+}
+
+.single-product-design2 .product-summary .product-info .product-short-detail-container .comments .swiper-slide {
+  box-shadow: none;
+}
+
+.single-product-design2 .product-summary .product-info .product-tools-container {
+  position: relative;
+  min-width: 4em;
+  height: 15.5em;
+  position: relative;
+  top: 6.56em;
+  border-radius: 1.5em 0 0 1.5em;
+  background-color: var(--element-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.single-product-design2 .product-summary .product-info .product-tools-container ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-product-design2 .product-summary .product-info .product-tools-container ul li {
+  width: 2.125em;
+  height: 2.125em;
+  background-color: var(--element-color);
+  border-radius: 50%;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  box-shadow: 0px 0px 5px 1px rgba(129, 129, 129, 0.5);
+}
+
+.single-product-design2 .product-summary .product-info .product-tools-container ul li i {
+  color: var(--text-color);
+  font-size: 1.5em;
+}
+
+.single-product-design2 .product-summary .product-info .product-tools-container ul li:nth-child(2) i {
+  color: red;
+}
+
+.single-product-design2 .product-summary .product-info .product-tools-container ul li:hover {
+  box-shadow: 0px 0px 8px 1px rgba(32, 89, 246, 0.5);
+}
+
+.single-product-design2 .product-summary .gallery {
+  display: flex;
+  flex: 1.12;
+  min-width: 40.625em;
+  height: 39.375em;
+}
+
+.single-product-design2 .product-summary .gallery .gallery-top {
+  width: 80%;
+  padding: 1em;
+}
+
+.single-product-design2 .product-summary .gallery .gallery-top .swiper-slide {
+  background-color: var(--element-color);
+  border-radius: 2em;
+  width: 27.25em;
+  margin: 0 auto;
+}
+
+.single-product-design2 .product-summary .gallery .gallery-top .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.single-product-design2 .product-summary .gallery .gallery-thumbs {
+  width: 20%;
+  min-width: 12em;
+  padding: 1em 0;
+}
+
+.single-product-design2 .product-summary .gallery .gallery-thumbs .swiper-slide {
+  min-width: 9.37em;
+  background-color: var(--element-color);
+  border-radius: 2em;
+  margin: 0 auto;
+}
+
+.single-product-design2 .product-summary .gallery .gallery-thumbs .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.single-product-design2 .product-summary .mouse-scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 2em;
+}
+
+.single-product-design2 .product-summary .mouse-scroll .wrapper .scroll-animation .mouse {
+  height: 2.5em;
+  width: 1.625em;
+  border-radius: 1em;
+  border: 1px solid rgba(129, 129, 129, 0.5);
+  margin-bottom: 3px;
+}
+
+.single-product-design2 .product-summary .mouse-scroll .wrapper .scroll-animation .mouse .wheel {
+  animation: mouse-wheel 1.5s ease infinite;
+  height: .3em;
+  width: .3em;
+  background: #2059f6;
+  border-radius: 50%;
+  margin: .4em auto;
+}
+
+.single-product-design2 .product-summary .mouse-scroll .wrapper .scroll-animation .arrows {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-product-design2 .product-summary .mouse-scroll .wrapper .scroll-animation .arrows .first {
+  animation-delay: .1s;
+}
+
+.single-product-design2 .product-summary .mouse-scroll .wrapper .scroll-animation .arrows .second {
+  animation-delay: .2s;
+}
+
+.single-product-design2 .product-summary .mouse-scroll .wrapper .scroll-animation .arrows .third {
+  animation-delay: .3s;
+}
+
+.single-product-design2 .product-summary .mouse-scroll .wrapper .scroll-animation .arrows i {
+  color: #818181;
+  font-size: 1.2em;
+  margin: -.3em auto;
+  animation: mouse-scroll 2s infinite;
+}
+
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+
+@keyframes mouse-wheel {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0.3em);
+  }
+}
+
+.single-product-design2 .accessories {
+  width: 100%;
+  margin-top: 5em;
+  display: flex;
+  border-radius: 3em;
+}
+
+.single-product-design2 .accessories h4 {
+  padding: 1.9em 1.9em 0 0;
+}
+
+.single-product-design2 .accessories .product-image {
+  padding: 2em;
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-product-design2 .accessories .product-image i {
+  font-size: 1.5em;
+}
+
+.single-product-design2 .accessories .product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.single-product-design2 .accessories .accessories-slider-box {
+  flex: 1.2;
+  margin: 0 1em;
+  max-width: 40vw;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .swiper-container {
+  height: 100%;
+  padding-right: 1.2em;
+  display: flex;
+  align-items: center;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .swiper-container .swiper-button-next::after,
+.single-product-design2 .accessories .accessories-slider-box .swiper-container .swiper-button-prev::after {
+  content: none;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .swiper-container .swiper-button-next,
+.single-product-design2 .accessories .accessories-slider-box .swiper-container .swiper-button-prev {
+  background-color: #fff;
+  box-shadow: 0px 3px 20px 2px rgba(0, 0, 0, 0.26);
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  top: 51%;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .swiper-container .swiper-button-next i,
+.single-product-design2 .accessories .accessories-slider-box .swiper-container .swiper-button-prev i {
+  font-size: 37px;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .swiper-container .swiper-button-next:hover,
+.single-product-design2 .accessories .accessories-slider-box .swiper-container .swiper-button-prev:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  box-shadow: 0px 3px 20px 2px #2059f642;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .swiper-slide {
+  box-shadow: none;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .swiper-wrapper {
+  height: 100%;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .accessories-slide {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease-in;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  position: relative;
+  border-radius: 10em 10em 0 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(32, 89, 246, 0.16);
+}
+
+.single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-image {
+  position: absolute;
+  top: -5em;
+  width: 50%;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-name {
+  margin: 1em;
+  width: 100%;
+  overflow: wrap;
+  text-align: center;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .main-price {
+  text-align: center;
+  color: #818181;
+  text-decoration: line-through;
+  padding: 0.5em 0;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .discount-price {
+  color: #2059f6;
+}
+
+.single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .discount-price span {
+  color: var(--text-color);
+}
+
+.single-product-design2 .accessories .accessories-slider-box .accessories-slide .accessories-container .accessories-spinner {
+  position: absolute;
+  bottom: 2em;
+}
+
+.single-product-design2 .accessories .accessories-cart {
+  z-index: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3em;
+  padding: 1em 2em 2em 2em;
+}
+
+.single-product-design2 .accessories .accessories-cart p {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 1.5em 0;
+}
+
+.single-product-design2 .accessories .accessories-cart .accessories-cart-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  direction: ltr;
+}
+
+.single-product-design2 .accessories .accessories-cart .accessories-cart-list .item {
+  direction: rtl;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.single-product-design2 .accessories .accessories-cart .accessories-cart-list .item div {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.single-product-design2 .accessories .accessories-cart .accessories-cart-list .item div label {
+  width: 10%;
+  padding: 0 0 0.9em 0;
+}
+
+.single-product-design2 .accessories .accessories-cart .accessories-cart-list .item div ul {
+  font-size: 0.9em;
+  color: #0dc979;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.single-product-design2 .accessories .accessories-cart .accessories-cart-list .item div ul li {
+  display: inline-block;
+}
+
+.single-product-design2 .accessories .accessories-cart .accessories-cart-list .item .item-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.single-product-design2 .accessories .accessories-cart .accessories-cart-list .item .item-price span {
+  padding: 0 0.2em;
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+.single-product-design2 .accessories .accessories-cart .accessories-cart-list .item .item-price span:first-child {
+  color: #2059f6;
+}
+
+.single-product-design2 .accessories .accessories-cart .total-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0 0 0;
+}
+
+.single-product-design2 .accessories .accessories-cart .total-price ul li {
+  display: inline-block;
+}
+
+.single-product-design2 .accessories .accessories-cart .total-price ul li:first-child {
+  font-weight: bold;
+  color: #2059f6;
+}
+
+.single-product-design2 .accessories .accessories-cart .add-all-to-cart a {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.single-product-design2 .accessories .accessories-cart .add-all-to-cart a:hover i {
+  transform: rotate(90deg);
+}
+
+.single-product-design2 .accessories .accessories-cart .add-all-to-cart a i {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #0dc979;
+  color: #fff;
+  padding: 5px;
+  font-size: 24px;
+  transform: rotate(0deg);
+  transition: all 0.5s ease-in-out;
+  z-index: 3;
+}
+
+.single-product-design2 .accessories .accessories-cart .add-all-to-cart a span {
+  position: relative;
+  color: #818181;
+  font-weight: normal;
+  font-size: 1em;
+  background-color: rgba(129, 129, 129, 0.15);
+  border-radius: 1em;
+  padding: 0 1.2em;
+  left: 0.8em;
+  z-index: 0;
+}
+
+.single-product-design3 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+}
+
+.single-product-design3 .product {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  max-width: 50%;
+  background-color: rgba(32, 89, 246, 0.16);
+  border-radius: 5em 0 0 5em;
+  padding: 10em 0 2em 2em;
+}
+
+.single-product-design3 .product .tabs {
+  position: relative;
+  z-index: 11;
+  width: 20%;
+}
+
+.single-product-design3 .product .tabs .tab {
+  width: 6.625em;
+  background-color: var(--element-color);
+  margin: 1em 0;
+  border-radius: 2em 0 0 2em;
+  padding: 1em;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 11;
+}
+
+.single-product-design3 .product .tabs .active {
+  width: 100%;
+  border-radius: 0 2em 2em 0;
+  background-color: #2059f6;
+  color: #fff;
+  pointer-events: none;
+}
+
+.single-product-design3 .product .product-info {
+  width: 80%;
+}
+
+.single-product-design3 .product .product-info .product-name {
+  margin: 1.5em 0;
+  font-weight: bold;
+}
+
+.single-product-design3 .product .product-info .product-id {
+  width: 100%;
+  color: #818181;
+  font-weight: bold;
+  margin: 1.5em 0;
+}
+
+.single-product-design3 .product .product-info .type {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 3em 0;
+  margin: 1.5em 0;
+}
+
+.single-product-design3 .product .product-info .type ul {
+  font-size: 13px;
+  display: flex;
+}
+
+.single-product-design3 .product .product-info .type ul li {
+  margin: 0 0.5em;
+}
+
+.single-product-design3 .product .product-info .type ul li input {
+  display: none;
+}
+
+.single-product-design3 .product .product-info .type ul li label {
+  cursor: pointer;
+}
+
+.single-product-design3 .product .product-info .type ul li p {
+  transition: all 0.3s ease-in-out;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+}
+
+.single-product-design3 .product .product-info .type ul li input:checked ~ p {
+  background-color: #2059f6;
+  font-weight: bold;
+  color: #fff;
+}
+
+.single-product-design3 .product .product-info .price-box {
+  width: 100%;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  margin: 1.5em 0;
+}
+
+.single-product-design3 .product .product-info .price-box .title,
+.single-product-design3 .product .product-info .price-box .price,
+.single-product-design3 .product .product-info .price-box .unit {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.single-product-design3 .product .product-info .price-box .price {
+  margin: 0 0.5em;
+  color: #2059f6;
+}
+
+.single-product-design3 .product .product-info .price-box ul li {
+  display: inline-flex;
+}
+
+.single-product-design3 .product .product-info .price-box .spinner {
+  margin: 0 2em;
+}
+
+.single-product-design3 .product .accessories {
+  display: flex;
+  height: 22.75em;
+  overflow: hidden;
+}
+
+.single-product-design3 .product .accessories .accessories-title {
+  padding: 2em;
+}
+
+.single-product-design3 .product .accessories .accessories-box {
+  width: 100%;
+}
+
+.single-product-design3 .product .accessories .accessories-box .swiper-container {
+  width: 50em;
+}
+
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide {
+  font-size: 18px;
+  position: relative;
+  background-color: var(--element-color);
+  border-radius: 50% 50% 50% 0;
+  width: 17.87em;
+  height: 18.5em;
+  transition: all 0.4s ease-in-out;
+}
+
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide ul {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide ul li {
+  text-align: center;
+  font-weight: bold;
+  padding: 0.2em 0;
+}
+
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide ul li:last-child {
+  color: #2059f6;
+}
+
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide:hover img {
+  top: 25%;
+}
+
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide:hover ul {
+  opacity: 1;
+}
+
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .spinner {
+  position: absolute;
+  bottom: 0.5em;
+  left: 0.5em;
+}
+
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .add-btn {
+  position: absolute;
+  bottom: 2em;
+  right: 3.5em;
+}
+
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .eva-checkmark-outline {
+  position: absolute;
+  color: #fff;
+  bottom: 2.5rem;
+  right: 6.5rem;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.single-product-design3 .product .accessories .accessories-box .rapid-accessories-slide .added-mark {
+  opacity: 1;
+  font-size: 30px;
+}
+
+.single-product-design3 .product .accessories .accessories-box .lightgreen {
+  background-color: rgba(13, 201, 121, 0.2);
+}
+
+.single-product-design3 .gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  max-width: 50%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.single-product-design3 .gallery .product-tools-container {
+  position: relative;
+  min-width: 4em;
+  height: 15.5em;
+  position: relative;
+  bottom: 10em;
+  border-radius: 1.5em 0 0 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.single-product-design3 .gallery .product-tools-container ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-product-design3 .gallery .product-tools-container ul li {
+  width: 2.125em;
+  height: 2.125em;
+  background-color: var(--element-color);
+  border-radius: 50%;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  box-shadow: 0px 0px 5px 1px rgba(129, 129, 129, 0.5);
+}
+
+.single-product-design3 .gallery .product-tools-container ul li i {
+  color: var(--text-color);
+  font-size: 1.5em;
+}
+
+.single-product-design3 .gallery .product-tools-container ul li:nth-child(2) i {
+  color: red;
+}
+
+.single-product-design3 .gallery .product-tools-container ul li:hover {
+  box-shadow: 0px 0px 8px 1px rgba(32, 89, 246, 0.5);
+}
+
+.single-product-design3 .gallery .gallery-box {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.single-product-design3 .gallery .gallery-box .swiper-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.single-product-design3 .gallery .gallery-box .swiper-slide {
+  display: flex;
+  box-shadow: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-product-design3 .gallery .gallery-box .swiper-slide-next {
+  transition: all 2s ease-in-out;
+  transform: rotate(-10deg) scale(0.9);
+}
+
+.single-product-design3 .gallery .gallery-box .swiper-slide-active {
+  transition: all 2s ease-in-out;
+  transform: rotate(0) scale(1);
+}
+
+.single-product-design3 .gallery .gallery-box .swiper-slide-prev {
+  transition: all 2s ease-in-out;
+  transform: rotate(10deg) scale(0.9);
+}
+
+.single-product-design3 .cart {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2em;
+  top: 2.5em;
+  left: 50%;
+  transform: translate(-50%);
+  width: 74em;
+  height: 6.62em;
+  border-radius: 5em;
+  background-color: var(--element-color);
+  z-index: 2;
+}
+
+.single-product-design3 .cart .title {
+  font-weight: bold;
+  color: #0dc979;
+}
+
+.single-product-design3 .cart .view-cart-btn {
+  width: 10.3em;
+  height: 3.25em;
+  border-radius: 4em;
+  background-color: #2059f6;
+  transition: all 0.3s ease-in-out;
+}
+
+.single-product-design3 .cart .view-cart-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-weight: bold;
+}
+
+.single-product-design3 .cart .cart-slider-box {
+  width: 43.75em;
+}
+
+.single-product-design3 .cart .cart-slider-box .swiper-container {
+  margin-top: -1em;
+}
+
+.single-product-design3 .cart .cart-slider-box .cart-slide {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+}
+
+.single-product-design3 .cart .cart-slider-box .cart-slide img {
+  height: 4.5em;
+  width: 4.5em;
+  object-fit: contain;
+  margin: 0 0.5em;
+}
+
+.single-product-design3 .cart .cart-slider-box .cart-slide ul {
+  height: 3.12em;
+  border-radius: 3em;
+  background-color: rgba(13, 201, 121, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-product-design3 .cart .cart-slider-box .cart-slide ul li {
+  width: max-content !important;
+  padding: 0 1em;
+  color: #0dc979;
+}
+
+.single-product-design3 .panels {
+  width: 0;
+}
+
+.single-product-design3 .panels .floating-panel {
+  width: 81vw;
+  height: 75vh;
+  border-radius: 3em;
+  background-color: #fff;
+  padding: 0.5em 1.5em;
+  overflow: hidden;
+  z-index: 12;
+}
+
+.single-product-design3 .panels .floating-panel .title {
+  width: 100%;
+  height: 3.5em;
+  text-align: right;
+  font-weight: bold;
+  color: #2059f6;
+  box-shadow: 0 16px 16px -16px rgba(0, 0, 0, 0.16);
+}
+
+.single-product-design3 .panels .floating-panel .title strong {
+  color: var(--text-color);
+}
+
+.single-product-design3 .panels .floating-panel #accordion2 {
+  height: 100%;
+}
+
+.single-product-design3 .panels .floating-panel #accordion2 .tab {
+  width: 100%;
+  height: 3.5em;
+  text-align: right;
+  color: #2059f6;
+  border: none;
+  box-shadow: 0 -16px 16px -16px rgba(0, 0, 0, 0.16);
+  border-radius: 3em;
+  outline: none;
+  cursor: pointer;
+}
+
+.single-product-design3 .panels .floating-panel #accordion2 .tab i {
+  color: var(--text-color);
+  float: left;
+  margin-left: 2em;
+  padding: .5em;
+  border: 1px solid var(--text-color);
+  border-radius: 50%;
+}
+
+.single-product-design3 .panels .floating-panel #accordion2 .tab:first-child {
+  box-shadow: none;
+}
+
+.single-product-design3 .panels .floating-panel #accordion2 .content {
+  height: max-content;
+}
+
+.single-product-design3 .panels .floating-panel #accordion2 .content img {
+  width: 10em;
+  height: 10em;
+  object-fit: contain;
+}
+
+.single-product-design3 .panels .modal {
+  overflow: visible;
+}
+
+.single-product-design3 .panels .product-short-description .text {
+  height: 90%;
+}
+
+.single-product-design3 .panels .comments {
+  display: flex;
+  overflow: visible;
+}
+
+.single-product-design3 .panels .comments .comment-statistics {
+  flex: 0.5;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.single-product-design3 .panels .comments .comment-statistics div:first-child p:first-child {
+  font-size: 16px;
+}
+
+.single-product-design3 .panels .comments .comment-statistics div:first-child p:nth-child(2) {
+  padding-top: 21px;
+  color: #818181;
+}
+
+.single-product-design3 .panels .comments .comment-statistics div:first-child p:nth-child(2) span {
+  font-size: 16px;
+  padding: 0 3px;
+}
+
+.single-product-design3 .panels .comments .comment-statistics div:first-child h6 {
+  padding-right: 99px;
+  color: #2059f6;
+  font-size: 48px;
+}
+
+.single-product-design3 .panels .comments .comment-statistics div:first-child p:last-child {
+  padding-right: 162px;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .rating {
+  display: flex;
+  justify-content: center;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .rating ul li {
+  direction: ltr;
+  display: flex;
+  flex-direction: row;
+  padding: 4px 2px;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .rating ul li i {
+  color: #ffd700;
+  padding: 0 5px;
+  z-index: 0;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .rating ul li p {
+  font-weight: bold;
+  padding-right: 17px;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .rating ul li .progress {
+  width: 190px;
+  height: 8px;
+  background-color: rgba(129, 129, 129, 0.15);
+  margin: 5px 0;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .rating ul li .progress .progress-bar {
+  height: 100%;
+  width: 0;
+  background-color: #2059f6;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .rating ul li:nth-child(1) .progress-bar {
+  width: 50%;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .rating ul li:nth-child(2) .progress-bar {
+  width: 40%;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .rating ul li:nth-child(3) .progress-bar {
+  width: 60%;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .rating ul li:nth-child(4) .progress-bar {
+  width: 20%;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .rating ul li:nth-child(5) .progress-bar {
+  width: 30%;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .new-comment-box {
+  position: relative;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .new-comment-box p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.single-product-design3 .panels .comments .comment-statistics .new-comment-box .add-comment-btn {
+  position: relative;
+  float: left;
+}
+
+.single-product-design3 .panels .comments .users-comments {
+  flex: 2;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.single-product-design3 .panels .comments .users-comments .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-product-design3 .panels .comments .users-comments .title span {
+  border-bottom: 1px solid #2059f6;
+  padding-bottom: 1em;
+}
+
+.single-product-design3 .panels .comments .users-comments .title div {
+  margin: 0.5em 0 0 0.5em;
+}
+
+.single-product-design3 .panels .comments .users-comments .comments-slider-box {
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+}
+
+.single-product-design3 .panels .comments .users-comments .comments-slider-box .swiper-slide {
+  box-shadow: none;
+  width: max-content !important;
+}
+
+.single-product-design3 .panels .comments .users-comments .comments-slider-box .comment-item span {
+  margin: 0;
+  font-size: 0.5em;
+  font-weight: normal;
+}
+
+.single-product-design3 .panels .close-btn {
+  outline: none;
+  border: none;
+  position: absolute;
+  top: -1.5em;
+  right: -1.5em;
+  z-index: 10;
 }
 /*# sourceMappingURL=main.css.map */
